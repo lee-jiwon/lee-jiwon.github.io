@@ -1,5 +1,4 @@
 ---
-title: test
-page: 
-
+layout: page
+title: "Publications"
 ---
