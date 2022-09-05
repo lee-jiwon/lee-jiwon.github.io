@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-Teaching Assistant
+## Teaching Assistant
 
 **Sociology of Health and Illness**, Johns Hopkins University, Fall 2022 (Instructor: Prof. Emily Agree). \
 **Introduction to Sociology**, Johns Hopkins University, Spring 2021 (Instructor: Prof. Andrew Cherlin). \
