@@ -5,7 +5,7 @@ title: "Publications"
 
 ## Journal Articles
 
-Morgan, Stephen L. and Jiwon Lee. Forthcoming. [A Rolling Panel Model of Cohort, Period, and Aging Effects for the Analysis of the General Social Survey].(https://journals.sagepub.com/doi/abs/10.1177/00491241211043135) *Sociological Methods and Research*. 
+Morgan, Stephen L. and Jiwon Lee. Forthcoming. [A Rolling Panel Model of Cohort, Period, and Aging Effects for the Analysis of the General Social Survey](https://journals.sagepub.com/doi/abs/10.1177/00491241211043135). *Sociological Methods and Research*. 
 
 Morgan, Stephen L. and  Jiwon Lee. 2019. \href{ https://journals.sagepub.com/doi/pdf/10.1177/2378023119871119}{``Economic Populism and Bandwagon Bigotry: Obama-to-Trump Voters and the Cross Pressures of the 2016 Election."} *Socius: Sociological Research for a Dynamic World* 5:1-15.
 
