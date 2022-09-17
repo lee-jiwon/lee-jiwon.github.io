@@ -1,10 +1,16 @@
 ---
 layout: page
-title: ""
+title: "Jiwon Lee"
 ---
 
-I'm an assistant professor in the [Linguistics Department](https://www.ling.upenn.edu) at the University of Pennsylvania and the director of the [Child Language Lab](http://childlanglab.com/). 
+Welcome! I am a Ph.D. candidate in the Department of Sociology at Johns Hopkins University. <br>
 
-I teach graduate seminars in [psycholinguistics](/ling607) and [neurolinguistics](/neurolinguistics) and an undergraduate course in [language and the brain](/ling104). Occasionally, I also teach [LING 1](/ling001), Penn's Introduction to Linguistics.
+I study topics in  social stratification, demography, public opinion, immigration, and sociology of education. 
 
-This semester I'm teaching a new undergraduate course (with Colin Twomey): [Data Science for Studying Language and the Mind](/ling172).
+Here you can find my [CV](http://jiwonlee.net/cv_jiwonlee.pdf), list of [publications](http://jiwonlee.net/research/), [Google Scholar](https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en) profile, and [teaching experiences](https://jiwonlee.net/about/). 
+<br/>
+<br/>
+<br/>
+#### Contact
+<jiwonlee@jhu.edu> | [Twitter](https://twitter.com/JiwonLee586)  
+524 Mergenthaler Hall, Johns Hopkins University
