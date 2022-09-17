@@ -7,7 +7,7 @@ Welcome! I am a Ph.D. candidate in the Department of Sociology at Johns Hopkins 
 
 I study topics in  social stratification, demography, public opinion, immigration, and sociology of education. 
 
-Here you can find my CV, list of [publications](http://jiwonlee.net/research/), [Google Scholar](https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en) profile, and [teaching experiences](https://jiwonlee.net/about/). 
+Here you can find my [CV](http://jiwonlee.net/cv_jiwonlee.pdf), list of [publications](http://jiwonlee.net/research/), [Google Scholar](https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en) profile, and [teaching experiences](https://jiwonlee.net/about/). 
 <br/>
 <br/>
 <br/>
