@@ -12,5 +12,5 @@ Here you can find my [CV](http://jiwonlee.net/cv_jiwonlee.pdf), list of [publica
 <br/>
 <br/>
 #### Contact
-<jiwonlee@jhu.edu> | [Twitter](https://twitter.com/JiwonLee586)  
+<jiwonlee@jhu.edu> 
 524 Mergenthaler Hall, Johns Hopkins University
