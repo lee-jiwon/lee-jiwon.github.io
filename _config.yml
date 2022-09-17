@@ -18,7 +18,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "Home"}
   - {title: "Research", file: "research.md"}
-  - {file: "README.md", title: "Teaching"}
+  - {file: "teaching.md", title: "Teaching"}
    - {url: "/cv_jiwonlee.pdf", title: CV}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
