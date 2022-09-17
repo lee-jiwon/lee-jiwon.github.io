@@ -20,7 +20,6 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Research", file: "research.md"}
   - {file: "README.md", title: "Teaching"}
    - {url: "/cv_jiwonlee.pdf", title: CV}
-  # - {file: "posts.md", title: "Posts"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:jiwonlee@jhu.jhu.edu"}
