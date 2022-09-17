@@ -4,14 +4,14 @@ title: "About Me"
 ---
 
 Welcome! I am a Ph.D. candidate in the Department of Sociology at Johns Hopkins University. <br>
-<br>
+
 I study topics in  social stratification, demography, public opinion, immigration, and sociology of education. 
-<br>
+
 Here you can find my CV, list of publications, and teaching experiences. 
-<br>
-<br>
+
+
 # Contact
 <jiwonlee@jhu.edu>
 524 Mergenthaler Hall, Johns Hopkins University
-<br>
+
 [Google Scholar](https://https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en)
