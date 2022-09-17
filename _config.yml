@@ -16,10 +16,10 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md", title: "Home"}
-  - {title: "Research", file: "research.md"}
-  - {file: "teaching.md", title: "Teaching"}
-   - {url: "/cv_jiwonlee.pdf", title: CV}
+  - {file: "index.md", title: Home}
+  - {file: "research.md", title: Research}
+  - {file: "teaching.md", title: Teaching}
+  - {url: "/cv_jiwonlee.pdf", title: CV}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:jiwonlee@jhu.jhu.edu"}
