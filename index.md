@@ -11,5 +11,5 @@ Here you can find my CV, list of publications, [Google Scholar](https://https://
 
 
 ### Contact
-<jiwonlee@jhu.edu> <\br>
+<jiwonlee@jhu.edu> 
 524 Mergenthaler Hall, Johns Hopkins University
