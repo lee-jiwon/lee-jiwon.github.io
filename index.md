@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About Me"
+title: "Jiwon Lee"
 ---
 
 Welcome! I am a Ph.D. candidate in the Department of Sociology at Johns Hopkins University. <br>
