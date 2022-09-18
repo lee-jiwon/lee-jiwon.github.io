@@ -3,7 +3,7 @@ layout: page
 title: "About Me"
 ---
 
-Welcome! I am a Ph.D. candidate in the Department of Sociology at Johns Hopkins University. <br>
+Welcome! My name is Jiwon Lee. I am a Ph.D. candidate in the Department of Sociology at Johns Hopkins University. <br>
 
 I study topics in  social stratification, demography, public opinion, immigration, and sociology of education. 
 
