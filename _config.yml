@@ -22,9 +22,9 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {url: "/cv_jiwonlee.pdf", title: CV}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:jiwonlee@jhu.jhu.edu"}
-  - {title: Github, icon: github, url: "https://github.com/lee-jiwon"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/JiwonLee586"}}
+  #- {title: Mail, icon: envelope, url: "mailto:jiwonlee@jhu.jhu.edu"}
+  #- {title: Github, icon: github, url: "https://github.com/lee-jiwon"}
+  #- {title: Twitter, icon: twitter, url: "https://twitter.com/JiwonLee586"}}
 
 remote_theme: niklasbuschmann/contrast@v2.11
 
