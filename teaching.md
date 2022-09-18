@@ -1,6 +1,6 @@
 ---
 title: "Teaching Experience"
-permalink: "/about/"
+permalink: "/teaching/"
 layout: page
 ---
 
