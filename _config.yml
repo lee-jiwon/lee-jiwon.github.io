@@ -26,7 +26,8 @@ external:                  # shows a footer with social links - for available ic
   #- {title: Github, icon: github, url: "https://github.com/lee-jiwon"}
   #- {title: Twitter, icon: twitter, url: "https://twitter.com/JiwonLee586"}}
 
-remote_theme: niklasbuschmann/contrast@v2.11
+# remote_theme: niklasbuschmann/contrast@v2.11
+theme: minima
 
 plugins:
   - jekyll-remote-theme
