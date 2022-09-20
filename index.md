@@ -13,5 +13,4 @@ My work has appeared in *Sociological Methods and Research*, *Sociological Scien
 
 #### Contact
 <jiwonlee@jhu.edu>   
-Mergenthaler Hall 524   
-Johns Hopkins University
+Mergenthaler Hall 524, Johns Hopkins University
