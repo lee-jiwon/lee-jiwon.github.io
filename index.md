@@ -7,7 +7,7 @@ title: "About Me"
 
 Welcome! I am currently the Frank H. T. Rhodes Postdoctoral Fellow at the Cornell Population Center, Cornell University, with Matthew Hall as my mentor. I earned my Ph.D. in sociology from Johns Hopkins University in May 2023, under the guidance of Stephen L. Morgan. <br>
 
-I study topics in  social stratification, demography, public opinion, immigration, and sociology of education. In my dissertation, I examine how social and demographic change during the last half-century has shaped contemporary U.S. politics. Specifically, the first chapter 
+I study topics in  social stratification, demography, public opinion, immigration, and sociology of education. In my dissertation, I examine how social and demographic change during the last half-century has shaped contemporary U.S. politics. Specifically, the first chapter employs two novel methods of age, period, and cohort (APC) analysis to examine how the APC processes have shaped shifts in voter turnout U.S. presidential elections from 1976 to 2020. 
    
 My work has appeared in *Social Science Research*, *Sociological Methods and Research*, *Sociological Science*, and *Socius*. To learn more about my research and teaching experiences, you can find my [CV](/cv_jiwonlee.pdf), list of [publications](https://jiwonlee.net/research/), [Google Scholar](https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en) profile, and [teaching experiences](https://jiwonlee.net/teaching/).
 <br />
