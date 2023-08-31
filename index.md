@@ -3,7 +3,7 @@ layout: page
 title: "About Me"
 ---
 
-Welcome! My name is Jiwon Lee and I am a Ph.D. candidate in the Department of Sociology at Johns Hopkins University. <br>
+Welcome! I am currently the Frank H. T. Rhodes Postdoctoral Fellow of Cornell Population Center at Cornell University, mentored by Matthew Hall. I earned my Ph.D. in Sociology at Johns Hopkins University under the guidance of Stephen L. Morgan. <br>
 
 I study topics in  social stratification, demography, public opinion, immigration, and sociology of education. In my dissertation, I examine how social and demographic change during the last half-century has shaped current politics in the United States.  
    
@@ -12,5 +12,5 @@ My work has appeared in *Social Science Research*, *Sociological Methods and Res
 <br />
 
 #### Contact
-<jiwonlee@jhu.edu>   
-Mergenthaler Hall 524, Johns Hopkins University
+<jiwon.lee@cornell.edu>   
+3M230 Martha Van Rensselaer Hall, Ithaca NY 14853 
