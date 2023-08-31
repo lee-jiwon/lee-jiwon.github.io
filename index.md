@@ -3,7 +3,7 @@ layout: page
 title: "About Me"
 ---
 
-<img src="assets/jl_image.jpg"/=250x250>
+<img src="assets/jl_image.jpg" width="48">
 
 Welcome! I am currently the Frank H. T. Rhodes Postdoctoral Fellow at the Cornell Population Center, Cornell University, with Matthew Hall as my mentor. I earned my Ph.D. in sociology from Johns Hopkins University in May 2023, under the guidance of Stephen L. Morgan. <br>
 
