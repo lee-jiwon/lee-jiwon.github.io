@@ -5,7 +5,7 @@ title: "About Me"
 
 <img style="margin-left: 1.8rem" src="assets/jl_image.jpg" align = "right" height="275" width="320">
 
-Welcome! I am currently the Frank H. T. Rhodes Postdoctoral Fellow at the Cornell Population Center, Cornell University, with Matthew Hall as my mentor. I earned my Ph.D. in sociology from Johns Hopkins University in May 2023, under the guidance of Stephen L. Morgan. I study topics in  social stratification, demography, public opinion, immigration, and sociology of education, with a methodological specialization in causal inference and demographic methods.  <br>
+Welcome! I am currently the Frank H. T. Rhodes Postdoctoral Fellow at the Cornell Population Center, Cornell University, with Matthew Hall as my mentor. I earned my Ph.D. in sociology from Johns Hopkins University in May 2023, under the guidance of Stephen L. Morgan. I study topics in social stratification, demography, public opinion, immigration, and sociology of education, with a methodological specialization in causal inference and demographic methods.  <br>
 
 In my dissertation, I examine how social and demographic change during the last half-century has shaped contemporary U.S. politics. 
    
