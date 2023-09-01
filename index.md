@@ -12,6 +12,7 @@ In my dissertation, I examine how social and demographic change during the last 
 My work has appeared in *Social Science Research*, *Sociological Methods and Research*, *Sociological Science*, and *Socius*. To learn more about my research and teaching experiences, you can find my [CV](/cv_jiwonlee.pdf), list of [publications](https://jiwonlee.net/research/), [Google Scholar](https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en) profile, and [teaching experiences](https://jiwonlee.net/teaching/).
 <br />
 <br />
+<br />
 
 #### Contact
 <jiwon.lee@cornell.edu>   
