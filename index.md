@@ -14,4 +14,4 @@ My work has appeared in *Social Science Research*, *Sociological Methods and Res
 
 #### Contact
 <jiwon.lee@cornell.edu>   
-3M230 Martha Van Rensselaer Hall, Ithaca NY 14853 
+3230 Martha Van Rensselaer Hall, Ithaca NY 14853 
