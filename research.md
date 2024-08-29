@@ -5,7 +5,7 @@ title: "Publications"
 
 ## Journal Articles
 
-Lee, Jiwon. Forthcoming.[{Age, Period, and Cohort Analysis with Bounding and Interactions](https://journals.sagepub.com/doi/10.1177/00491241241266279). *Sociological Methods & Research*.
+Lee, Jiwon. Forthcoming. [Age, Period, and Cohort Analysis with Bounding and Interactions](https://journals.sagepub.com/doi/10.1177/00491241241266279). *Sociological Methods & Research*.
 
 Morgan, Stephen L. and Jiwon Lee. 2024. [A Rolling Panel Model of Cohort, Period, and Aging Effects for the Analysis of the General Social Survey](https://journals.sagepub.com/doi/abs/10.1177/00491241211043135). *Sociological Methods & Research* 53:369-420. 
 
@@ -21,14 +21,14 @@ Morgan, Stephen L. and  Jiwon Lee. 2017. [Social Class and Party Identification 
 
 ## Book Reviews and Methodological Reports
 
-Lee, Jiwon Forthcoming. [Invited Book Review: Rust Belt Union Blues: Why Working-Class Voters Are Turning Away from the Democratic Party]. *Contemporary Sociology*.
+Lee, Jiwon Forthcoming. Invited Book Review: Rust Belt Union Blues: Why Working-Class Voters Are Turning Away from the Democratic Party. *Contemporary Sociology*.
 
 Morgan, Stephen L. and Jiwon Lee. 2020. [Six Alternative Weights that Adjust for Attrition in the 2006-2014 General Social Survey Panels.](https://gss.norc.org/Documents/reports/methodological-reports/MR132%20Panel-Weights.pdf) GSS Methodological Report No. 128, National Opinion Research Center, Chicago, Illinois. 
 
 ## Under Review & Work in Progress
 
-Lee, Jiwon and Yool Choi. [Decriminalization of Adultery Likely Changed Women’s Views on Divorce Following Spousal Infidelity in South Korea]. *R & R*, *Demographic Research*.
+Lee, Jiwon and Yool Choi. Decriminalization of Adultery Likely Changed Women’s Views on Divorce Following Spousal Infidelity in South Korea. *R & R*, *Demographic Research*.
 
-Lee, Jiwon and Yool Choi. [STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea]. *Under review*. 
+Lee, Jiwon and Yool Choi. STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea. *Under review*. 
 
-Lee, Jiwon. [Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implications]. *Under review*.  
+Lee, Jiwon. Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implications. *Under review*.  
