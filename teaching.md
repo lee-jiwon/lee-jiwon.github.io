@@ -16,4 +16,4 @@ layout: page
 
 **Research Methods for the Social Sciences**, Johns Hopkins University, Spring 2020  
 *Instructor: Prof. Lingxin Hao*  
-- Student Evaluation Score: 4.56/
+- Student Evaluation Score: 4.56/5
