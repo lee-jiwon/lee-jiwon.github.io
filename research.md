@@ -43,7 +43,7 @@ Invited Book Review: *Rust Belt Union Blues: Why Working-Class Voters Are Turnin
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2020.  
 [**Six Alternative Weights that Adjust for Attrition in the 2006-2014 General Social Survey Panels**](https://gss.norc.org/Documents/reports/methodological-reports/MR132%20Panel-Weights.pdf).  
-*GSS Methodological Report No. 128*, National Opinion Research Center, Chicago, Illinois.
+*GSS Methodological Report No. 128*, National Opinion Research Center, Chicago, Illinois. [[Replication Materials]](https://github.com/stephen-l-morgan/gss-treble-panel-weights)
 
 ---
 
