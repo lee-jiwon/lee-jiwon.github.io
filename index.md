@@ -14,5 +14,5 @@ My work has been published in *Social Science Research*, *Sociological Methods &
 ### Contact
 
 **Email**: <jiwon.lee@cornell.edu>  
-**Address**: 3230 Martha Van Rensselaer Hall, Cornell University, Ithaca, NY 14853
-**Github**: <https://github.com/lee-jiwon>
+**Address**: 3230 Martha Van Rensselaer Hall, Cornell University, Ithaca, NY 14853  
+**GitHub**: [lee-jiwon](https://github.com/lee-jiwon)
