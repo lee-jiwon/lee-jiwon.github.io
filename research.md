@@ -5,11 +5,11 @@ title: "Publications"
 
 ## Journal Articles
 
-Lee, Jiwon. Forthcoming. [Age, Period, and Cohort Analysis with Bounding and Interactions](https://journals.sagepub.com/doi/10.1177/00491241241266279). *Sociological Methods & Research*.
+Lee, Jiwon. Forthcoming. [Age, Period, and Cohort Analysis with Bounding and Interactions](https://journals.sagepub.com/doi/10.1177/00491241241266279). *Sociological Methods & Research*. [[Replication Materials]](https://github.com/lee-jiwon/apc-turnout-smr)
 
 Morgan, Stephen L. and Jiwon Lee. 2024. [A Rolling Panel Model of Cohort, Period, and Aging Effects for the Analysis of the General Social Survey](https://journals.sagepub.com/doi/abs/10.1177/00491241211043135). *Sociological Methods & Research* 53:369-420. 
 
-Lee, Jiwon. 2023. [Consider Your Origins: Social Class and Preference for Redistribution in the United States from 1977 to 2018](https://www.sciencedirect.com/science/article/pii/S0049089X22001557). *Social Science Research* 110: 102840.
+Lee, Jiwon. 2023. [Consider Your Origins: Social Class and Preference for Redistribution in the United States from 1977 to 2018](https://www.sciencedirect.com/science/article/pii/S0049089X22001557). *Social Science Research* 110: 102840. [[Replication Materials]](https://github.com/lee-jiwon/gss-origin-redistribution-ssr)
 
 Morgan, Stephen L. and  Jiwon Lee. 2019. [Economic Populism and Bandwagon Bigotry: Obama-to-Trump Voters and the Cross Pressures of the 2016 Election](https://journals.sagepub.com/doi/pdf/10.1177/2378023119871119). *Socius: Sociological Research for a Dynamic World* 5:1-15.
 
