@@ -22,15 +22,15 @@ title: "Publications"
 *Socius: Sociological Research for a Dynamic World* 5:1-15.
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2018.  
-[**Trump Voters and the White Working Class**](https://www.sociologicalscience.com/download/vol-5/april/SocSci_v5_234to245.pdf).  
+[**Trump Voters and the White Working Class**](https://sociologicalscience.com/articles-v5-10-234/).  
 *Sociological Science* 5:234-245.
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2017.  
-[**The White Working Class and Voter Turnout in US Presidential Elections, 2004 to 2016**](https://www.sociologicalscience.com/download/vol-4/november/SocSci_v4_656to685.pdf).  
+[**The White Working Class and Voter Turnout in US Presidential Elections, 2004 to 2016**](https://sociologicalscience.com/articles-v4-27-656/).  
 *Sociological Science* 4:656-685.
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2017.  
-[**Social Class and Party Identification During the Clinton, Bush, and Obama Presidencies**](https://www.sociologicalscience.com/download/vol-4/august/SocSci_v4_394to423.pdf).  
+[**Social Class and Party Identification During the Clinton, Bush, and Obama Presidencies**](https://sociologicalscience.com/articles-v4-16-394/).  
 *Sociological Science* 4:394-423.
 
 ---
