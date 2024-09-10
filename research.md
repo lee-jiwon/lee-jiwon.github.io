@@ -11,7 +11,7 @@ title: "Publications"
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2024.  
 [**A Rolling Panel Model of Cohort, Period, and Aging Effects for the Analysis of the General Social Survey**](https://journals.sagepub.com/doi/abs/10.1177/00491241211043135).  
-*Sociological Methods & Research* 53:369-420. <span style="color: #FF8C00;">[[Pre-print]](https://osf.io/preprints/socarxiv/m582q) <span style="color: #FF8C00;">[[Supplement]](assets/jl_ssr_2024_supplement.pdf) <span style="color: #FF8C00;">[[Replication]](https://osf.io/jzkxm/)
+*Sociological Methods & Research* 53:369-420. <span style="color: #FF8C00;">[[Pre-print]](https://osf.io/preprints/socarxiv/m582q) <span style="color: #FF8C00;"> <span style="color: #FF8C00;">[[Replication]](https://osf.io/jzkxm/)
 
 **Lee, Jiwon.** 2023.  
 [**Consider Your Origins: Social Class and Preference for Redistribution in the United States from 1977 to 2018**](https://www.sciencedirect.com/science/article/pii/S0049089X22001557).  
