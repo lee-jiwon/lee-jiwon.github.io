@@ -15,7 +15,7 @@ title: "Publications"
 
 **Lee, Jiwon.** 2023.  
 [**Consider Your Origins: Social Class and Preference for Redistribution in the United States from 1977 to 2018**](https://www.sciencedirect.com/science/article/pii/S0049089X22001557).  
-*Social Science Research* 110: 102840. <span style="color: #FF8C00;">[[Pre-print]](assets/jl_ssr_2023_pre_print.pdf)<span style="color: #FF8C00;">[[Replication]](https://github.com/lee-jiwon/gss-origin-redistribution-ssr)
+*Social Science Research* 110: 102840. <span style="color: #FF8C00;">[[Pre-print]](assets/jl_ssr_2023_pre_print.pdf)<span style="color: #FF8C00;">[Supplement](assets/jl_ssr_2024_supplement.pdf)<span style="color: #FF8C00;">[[Replication]](https://github.com/lee-jiwon/gss-origin-redistribution-ssr)
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2019.  
 [**Economic Populism and Bandwagon Bigotry: Obama-to-Trump Voters and the Cross Pressures of the 2016 Election**](https://journals.sagepub.com/doi/pdf/10.1177/2378023119871119).  
