@@ -35,7 +35,7 @@ title: "Publications"
 
 ---
 
-## Book Reviews and Methodological Reports
+## Book Reviews & Methodological Reports
 
 **Lee, Jiwon.** Forthcoming.  
 Invited Book Review: *Rust Belt Union Blues: Why Working-Class Voters Are Turning Away from the Democratic Party*.  
