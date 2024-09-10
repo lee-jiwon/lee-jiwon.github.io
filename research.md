@@ -7,7 +7,7 @@ title: "Publications"
 
 **Lee, Jiwon.** Forthcoming.  
 [**Age, Period, and Cohort Analysis with Bounding and Interactions**](https://journals.sagepub.com/doi/10.1177/00491241241266279).  
-*Sociological Methods & Research*. [[Replication Materials]](https://github.com/lee-jiwon/apc-turnout-smr)
+*Sociological Methods & Research*. [[Replication]](https://github.com/lee-jiwon/apc-turnout-smr)
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2024.  
 [**A Rolling Panel Model of Cohort, Period, and Aging Effects for the Analysis of the General Social Survey**](https://journals.sagepub.com/doi/abs/10.1177/00491241211043135).  
@@ -43,7 +43,7 @@ Invited Book Review: *Rust Belt Union Blues: Why Working-Class Voters Are Turnin
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2020.  
 [**Six Alternative Weights that Adjust for Attrition in the 2006-2014 General Social Survey Panels**](https://gss.norc.org/Documents/reports/methodological-reports/MR132%20Panel-Weights.pdf).  
-*GSS Methodological Report No. 128*, National Opinion Research Center, Chicago, Illinois. [[Replication Materials]](https://github.com/stephen-l-morgan/gss-treble-panel-weights)
+*GSS Methodological Report No. 128*, National Opinion Research Center, Chicago, Illinois. [[Replication]](https://github.com/stephen-l-morgan/gss-treble-panel-weights)
 
 ---
 
