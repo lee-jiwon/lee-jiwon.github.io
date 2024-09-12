@@ -18,7 +18,7 @@ title: "Publications"
 *Social Science Research* 110: 102840. <span style="color: #FF8C00;">[[Pre-print]](assets/jl_ssr_2023_pre_print.pdf) <span style="color: #FF8C00;">[[Supplement]](assets/jl_ssr_2024_supplement.pdf) <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/gss-origin-redistribution-ssr)
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2019.  
-[**Economic Populism and Bandwagon Bigotry: Obama-to-Trump Voters and the Cross Pressures of the 2016 Election**](https://journals.sagepub.com/doi/pdf/10.1177/2378023119871119).  
+[**Economic Populism and Bandwagon Bigotry: Obama-to-Trump Voters and the Cross Pressures of the 2016 Election**](https://journals.sagepub.com/doi/full/10.1177/2378023119871119).  
 *Socius: Sociological Research for a Dynamic World* 5:1-15.
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2018.  
