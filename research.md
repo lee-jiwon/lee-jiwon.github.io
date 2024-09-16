@@ -7,7 +7,28 @@ title: "Publications"
 
 **Lee, Jiwon.** Forthcoming.  
 [**Age, Period, and Cohort Analysis with Bounding and Interactions**](https://journals.sagepub.com/doi/10.1177/00491241241266279).  
-*Sociological Methods & Research*. <span style="color: #FF8C00;">[[Pre-print]](assets/jl_smr_apc_pre_print.pdf) <span style="color: #FF8C00;">[[Supplement]](assets/jl_smr_apc_supplement.pdf) <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/apc-turnout-smr) 
+*Sociological Methods & Research*. <span style="color: #FF8C00;">[[Pre-print]](assets/jl_smr_apc_pre_print.pdf) <span style="color: #FF8C00;">[[Supplement]](assets/jl_smr_apc_supplement.pdf) <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/apc-turnout-smr) <!-- Your button and abstract content -->
+  <div>
+    <button id="toggleButton" onclick="toggleAbstract()">Show Abstract</button>
+    <div id="abstractContent" style="display: none;">
+      <p>This is the abstract content...</p>
+    </div>
+  </div>
+
+  <!-- Place the JavaScript code here -->
+  <script>
+    function toggleAbstract() {
+      var abstract = document.getElementById("abstractContent");
+      var button = document.getElementById("toggleButton");
+      if (abstract.style.display === "none") {
+        abstract.style.display = "block";
+        button.textContent = "Hide Abstract";
+      } else {
+        abstract.style.display = "none";
+        button.textContent = "Show Abstract";
+      }
+    }
+  </script>
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2024.  
 [**A Rolling Panel Model of Cohort, Period, and Aging Effects for the Analysis of the General Social Survey**](https://journals.sagepub.com/doi/abs/10.1177/00491241211043135).  
