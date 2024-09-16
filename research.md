@@ -9,6 +9,13 @@ title: "Publications"
 [**Age, Period, and Cohort Analysis with Bounding and Interactions**](https://journals.sagepub.com/doi/10.1177/00491241241266279).  
 *Sociological Methods & Research*. <span style="color: #FF8C00;">[[Pre-print]](assets/jl_smr_apc_pre_print.pdf) <span style="color: #FF8C00;">[[Supplement]](assets/jl_smr_apc_supplement.pdf) <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/apc-turnout-smr) 
 
+<button id="toggleAbstract1" onclick="toggleAbstract('abstract1')">Show Abstract</button>
+<div id="abstract1" style="display:none;">
+  <p>
+    This article examines the age, period, and cohort effects on presidential election turnouts from 1976 to 2020 using two novel methods: APC bounding analysis and the APC interaction model. Findings suggest that the heightened turnout in 2020 was primarily driven by period effects, including increased partisan intensity and polarizing figures such as Donald Trump.
+  </p>
+</div>
+
 **Morgan, Stephen L.** and **Jiwon Lee.** 2024.  
 [**A Rolling Panel Model of Cohort, Period, and Aging Effects for the Analysis of the General Social Survey**](https://journals.sagepub.com/doi/abs/10.1177/00491241211043135).  
 *Sociological Methods & Research* 53:369-420. <span style="color: #FF8C00;">[[Pre-print]](https://osf.io/preprints/socarxiv/m582q) <span style="color: #FF8C00;"> <span style="color: #FF8C00;">[[Code]](https://osf.io/jzkxm/)
@@ -57,3 +64,18 @@ STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolesce
 
 **Lee, Jiwon.**  
 Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implications. *Under review*.
+
+<script>
+  function toggleAbstract(abstractId) {
+    var abstract = document.getElementById(abstractId);
+    var button = document.getElementById('toggle' + abstractId.charAt(0).toUpperCase() + abstractId.slice(1));
+    
+    if (abstract.style.display === "none") {
+      abstract.style.display = "block";
+      button.textContent = "Hide Abstract";
+    } else {
+      abstract.style.display = "none";
+      button.textContent = "Show Abstract";
+    }
+  }
+</script>
