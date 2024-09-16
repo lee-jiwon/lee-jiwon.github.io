@@ -65,6 +65,8 @@ STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolesce
 **Lee, Jiwon.**  
 Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implications. *Under review*.
 
+<!-- JavaScript part -->
+{% raw %}
 <script>
   function toggleAbstract(abstractId) {
     var abstract = document.getElementById(abstractId);
@@ -79,3 +81,4 @@ Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implic
     }
   }
 </script>
+{% endraw %}
