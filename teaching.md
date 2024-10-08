@@ -6,7 +6,7 @@ layout: page
 
 ## Teaching Experience
 
-### Teaching Assistant Positions
+### Teaching Assistant
 
 #### **Sociology of Health and Illness**
 - *Johns Hopkins University, Fall 2022*
