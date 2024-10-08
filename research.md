@@ -57,4 +57,4 @@ Decriminalization of Adultery Likely Changed Women’s Views on Divorce Followin
 STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea. *R & R*, *Research in Social Stratification and Mobility*.
 
 **Lee, Jiwon.**  
-Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implications. *Under review*.
+Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implications. *Under Review*.
