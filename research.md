@@ -48,7 +48,7 @@ Invited Book Review: *Rust Belt Union Blues: Why Working-Class Voters Are Turnin
 
 ---
 
-## Under Review & Work in Progress
+## Under Review & Selected Work in Progress
 
 **Lee, Jiwon** and **Yool Choi.**  
 Decriminalization of Adultery Likely Changed Women’s Views on Divorce Following Spousal Infidelity in South Korea. *R & R*, *Demographic Research*.
