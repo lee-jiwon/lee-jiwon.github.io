@@ -7,7 +7,7 @@ title: "Publications"
 
 **Lee, Jiwon.** Forthcoming.  
 [**Age, Period, and Cohort Analysis with Bounding and Interactions**](https://journals.sagepub.com/doi/10.1177/00491241241266279).  
-*Sociological Methods & Research*. <span style="color: #FF8C00;">[[Pre-print]](assets/jl_smr_apc_pre_print.pdf) <span style="color: #FF8C00;">[[Supplement]](assets/jl_smr_apc_supplement.pdf) <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/apc-turnout-smr) 
+*Sociological Methods & Research*. <span style="color: #FF8C00;">[Pre-print](assets/jl_smr_apc_pre_print.pdf) | [Supplement](assets/jl_smr_apc_supplement.pdf) | [Code](https://github.com/lee-jiwon/apc-turnout-smr)
 
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2024.  
