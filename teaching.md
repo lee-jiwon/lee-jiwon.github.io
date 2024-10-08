@@ -4,8 +4,6 @@ permalink: "/teaching/"
 layout: page
 ---
 
-## Teaching Experience
-
 ### Teaching Assistant
 
 #### **Sociology of Health and Illness**
