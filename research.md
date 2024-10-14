@@ -51,10 +51,10 @@ Invited Book Review: *Rust Belt Union Blues: Why Working-Class Voters Are Turnin
 ## Under Review & Selected Work in Progress
 
 **Lee, Jiwon** and **Yool Choi.**  
-Decriminalization of Adultery Likely Changed Women’s Views on Divorce Following Spousal Infidelity in South Korea. *R & R*, *Demographic Research*.
+Decriminalization of Adultery Likely Changed Women’s Views on Divorce Following Spousal Infidelity in South Korea. *R & R* at *Demographic Research*.
 
 **Lee, Jiwon** and **Yool Choi.**  
-STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea. *R & R*, *Research in Social Stratification and Mobility*.
+STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea. *R & R* at *Research in Social Stratification and Mobility*.
 
 **Lee, Jiwon.**  
 Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implications. *Under Review*.
