@@ -38,9 +38,8 @@ title: "Publications"
 
 ## Book Reviews & Methodological Reports
 
-**Lee, Jiwon.** 2024.  
-Invited Book Review: [**Rust Belt Union Blues: Why Working-Class Voters Are Turning Away from the Democratic Party**](https://journals.sagepub.com/doi/10.1177/00943061241285299z). 
-*Contemporary Sociology* 53(6):543–545.
+**Lee, Jiwon.** 2024. [**Review of Rust Belt Union Blues: Why Working-Class Voters Are Turning Away from the Democratic Party**](https://journals.sagepub.com/doi/10.1177/00943061241285299z). 
+*Contemporary Sociology* 53(6):543–545. (Invited Book Review)
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2020.  
 [**Six Alternative Weights that Adjust for Attrition in the 2006-2014 General Social Survey Panels**](https://gss.norc.org/Documents/reports/methodological-reports/MR132%20Panel-Weights.pdf).  
