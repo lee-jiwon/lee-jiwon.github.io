@@ -5,6 +5,9 @@ title: "Publications"
 
 ## Journal Articles
 
+**Lee, Jiwon** and **Yool Choi.** Forthcoming. 
+Decriminalization of Adultery Likely Changed Women’s Views on Divorce Following Spousal Infidelity in South Korea. *Demographic Research*.
+
 **Lee, Jiwon.** Forthcoming.  
 [**Age, Period, and Cohort Analysis with Bounding and Interactions**](https://journals.sagepub.com/doi/10.1177/00491241241266279).  
 *Sociological Methods & Research*. <span style="color: #FF8C00;">[[Pre-print]](assets/jl_smr_apc_pre_print.pdf) <span style="color: #FF8C00;">[[Supplement]](assets/jl_smr_apc_supplement.pdf) <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/apc-turnout-smr) 
@@ -48,9 +51,6 @@ title: "Publications"
 ---
 
 ## Under Review & Selected Work in Progress
-
-**Lee, Jiwon** and **Yool Choi.**  
-Decriminalization of Adultery Likely Changed Women’s Views on Divorce Following Spousal Infidelity in South Korea. *R & R* at *Demographic Research*.
 
 **Lee, Jiwon** and **Yool Choi.**  
 STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea. *R & R* at *Research in Social Stratification and Mobility*.
