@@ -7,7 +7,7 @@ title: "Publications"
 
 **Lee, Jiwon** and **Yool Choi.** Forthcoming. <br>
 Decriminalization of Adultery Likely Changed Women’s Views on Divorce Following Spousal Infidelity in South Korea. <br>
-*Demographic Research*.
+*Demographic Research*.  <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/adultery-law-south-korea-demres) 
 
 **Lee, Jiwon.** Forthcoming.  
 [**Age, Period, and Cohort Analysis with Bounding and Interactions**](https://journals.sagepub.com/doi/10.1177/00491241241266279).  
