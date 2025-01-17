@@ -41,7 +41,7 @@ title: "Publications"
 
 ## Book Reviews & Methodological Reports
 
-**Lee, Jiwon.** 2024. [**Review of Rust Belt Union Blues: Why Working-Class Voters Are Turning Away from the Democratic Party**](https://journals.sagepub.com/doi/10.1177/00943061241285299z). <be>
+**Lee, Jiwon.** 2024. [**Review of Rust Belt Union Blues: Why Working-Class Voters Are Turning Away from the Democratic Party**](https://journals.sagepub.com/doi/10.1177/00943061241285299z). <br> 
 *Contemporary Sociology* 53(6):543–545. (Invited Book Review)
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2020.  
