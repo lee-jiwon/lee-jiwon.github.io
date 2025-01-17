@@ -53,7 +53,9 @@ title: "Publications"
 ## Under Review & Selected Work in Progress
 
 **Lee, Jiwon** and **Yool Choi.**  
-STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea. *Research in Social Stratification and Mobility (R & R)*.
+STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea. <be> 
+*Research in Social Stratification and Mobility (R & R)*.
 
 **Lee, Jiwon.**  
-Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implications. *Population Research and Policy Review (R & R)*.
+Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implications. <be> 
+*Population Research and Policy Review (R & R)*.
