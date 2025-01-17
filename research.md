@@ -9,7 +9,7 @@ title: "Publications"
 [**Age, Period, and Cohort Analysis with Bounding and Interactions**](https://journals.sagepub.com/doi/10.1177/00491241241266279).  
 *Sociological Methods & Research*. <span style="color: #FF8C00;">[[Pre-print]](assets/jl_smr_apc_pre_print.pdf) <span style="color: #FF8C00;">[[Supplement]](assets/jl_smr_apc_supplement.pdf) <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/apc-turnout-smr) 
 
-**Lee, Jiwon** and **Yool Choi.** 2025.
+**Lee, Jiwon** and **Yool Choi.** 2025. <be>
 [**Decriminalization of Adultery Likely Changed Women’s Views on Divorce Following Spousal Infidelity in South Korea**](https://chatgpt.com/c/6771f284-71dc-8001-a1d6-41caed9e2a04). 
 *Demographic Research* 52:111–124.  <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/adultery-law-south-korea-demres) 
 
