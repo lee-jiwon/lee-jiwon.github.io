@@ -9,7 +9,7 @@ Welcome! I am the Frank H. T. Rhodes Postdoctoral Fellow at the Cornell Populati
 
 For 2025–2026, I will serve as a co-PI, alongside Matt Hall (PI), on a Russell Sage Foundation-funded project using restricted-use Census Bureau datasets to study the [racial and ethnic identification of multiracial Americans](https://www.russellsage.org/awarded-project/context-and-life-course-racialethnic-identities-among-multi-racial-americans).
 
-My work has appeared in *Demographic Research,* *Social Science Research*, *Sociological Methods & Research*, *Sociological Science*, and *Socius*. Feel free to explore my [CV](/cv_jiwon_lee.pdf), [publications](https://jiwonlee.net/research/), [Google Scholar](https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en) profile, and [teaching background](https://jiwonlee.net/teaching/) to learn more about my research and academic interests!
+My work has appeared in *Demographic Research,* *Social Science Research*, *Sociological Methods & Research*, *Sociological Science*, and *Socius*. Feel free to explore my [CV](/cv_jiwon_lee.pdf), [publications](https://jiwonlee.net/research/), [Google Scholar](https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en) profile, and [teaching background](https://jiwonlee.net/teaching/) to learn more about my research and teaching interests!
 
 ---
 
