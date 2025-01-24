@@ -4,7 +4,7 @@ permalink: "/teaching/"
 layout: page
 ---
 
-### Teaching Assistant
+### Graduate Teaching Assistant, Johns Hopkins University:
 
 #### **Sociology of Health and Illness**
 - *Johns Hopkins University, Fall 2022*
