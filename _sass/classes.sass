@@ -14,7 +14,7 @@
   transition: .2s background, .2s color
 
 .more a:hover
-  color: $light
+  color: $dark
   background: $accent-color
   text-decoration: inherit
 
@@ -47,13 +47,14 @@ a:hover .icon
   margin-right: 0.5em
   padding: 0.25em 0.6em
   border-radius: 3px
-  background: rgba($accent-color, 0.1)
-  color: $accent-color
+  background: rgba($accent-color, 0.12)
+  color: darken($accent-color, 12%)
+  border-bottom: none
   transition: background 0.2s ease, color 0.2s ease
   
 .pub-links a:hover
-  background: rgba($accent-color, 0.2)
-  color: $accent-hover
+  background: rgba($accent-color, 0.25)
+  color: darken($accent-color, 18%)
   text-decoration: none
 
 .full table
