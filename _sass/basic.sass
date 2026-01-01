@@ -18,17 +18,35 @@ body
 
 h1, h2, h3, h4, h5, h6
   font-weight: $heading-weight
+  letter-spacing: -0.02em
+  margin-top: 1.5em
+  margin-bottom: 0.5em
+
+h1
+  font-size: 1.8em
+
+h2
+  font-size: 1.4em
+  color: $dark
+  border-bottom: none
+  padding-bottom: 0.3em
+
+h3
+  font-size: 1.15em
 
 b, strong, th
   font-weight: $font-weight + 200
 
 p
-  text-align: justify
+  text-align: left
+  margin-bottom: 1.2em
 
 a
   color: $link-color
-  text-decoration: inherit
+  text-decoration: none
+  transition: color 0.2s ease
   &:hover
+    color: darken($link-color, 15%)
     text-decoration: underline
 
 header a, footer a, aside a
@@ -38,17 +56,19 @@ header time
   color: reduce(100)
 
 hr
-  border: 1px solid reduce(30)
-  margin: 2em 0
+  border: none
+  border-top: 1px solid reduce(20)
+  margin: 2.5em 0
 
 article:not(:last-of-type)
   border-bottom: 1px solid reduce(14)
 
 blockquote
-  background: reduce(6)
-  border-left: 3px solid reduce(90)
-  padding: 1px 1.5em
-  opacity: .75
+  background: reduce(4)
+  border-left: 4px solid $link-color
+  padding: 1em 1.5em
+  margin: 1.5em 0
+  font-style: italic
 
 blockquote, figure
   margin: 1em 0
@@ -57,10 +77,10 @@ img
   margin: .5em 0
 
 li
-  margin: .25em 0
+  margin: .35em 0
 
 img
-  border-radius: 2px
+  border-radius: 4px
   max-width: 100%
   height: auto
 
@@ -69,28 +89,27 @@ table
   max-width: 100%
   overflow-y: scroll
   border-spacing: 1px
-  border-radius: 2px
+  border-radius: 4px
   box-shadow: 0 0 0 1px reduce(12) inset
 
 th, td
-  padding: .5em 1em
+  padding: .6em 1.2em
   box-shadow: 0 0 0 1px reduce(12)
 
 tr:hover, tr:nth-child(odd) td
   background: reduce(4)
 
 pre
-  background: reduce(12)
-  border-radius: 2px
-  font-size: .8em
+  background: reduce(8)
+  border-radius: 4px
+  font-size: .85em
   margin: 1.5em 0
-  padding: .8em 1.2em
+  padding: 1em 1.4em
   overflow-x: auto
 
 \:not(pre) > code
   font-size: .9em
-  background: reduce(15)
-  opacity: .7
-  border-radius: 2px
+  background: reduce(10)
+  border-radius: 3px
   margin: 0 .1em
-  padding: .2em .4em
+  padding: .2em .5em
