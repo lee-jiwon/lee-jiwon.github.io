@@ -13,26 +13,26 @@ body
 
 @media (prefers-color-scheme: dark)
   body
-    background: $dark
-    color: $light
+    background: darken($dark, 3%)
+    color: #e5e5e5
 
 h1, h2, h3, h4, h5, h6
+  font-family: $heading-font
   font-weight: $heading-weight
-  letter-spacing: -0.02em
+  letter-spacing: -0.01em
   margin-top: 1.5em
   margin-bottom: 0.5em
+  color: $dark
 
 h1
-  font-size: 1.8em
+  font-size: 1.85em
 
 h2
-  font-size: 1.4em
-  color: $dark
-  border-bottom: none
+  font-size: 1.45em
   padding-bottom: 0.3em
 
 h3
-  font-size: 1.15em
+  font-size: 1.2em
 
 b, strong, th
   font-weight: $font-weight + 200
@@ -42,30 +42,33 @@ p
   margin-bottom: 1.2em
 
 a
-  color: $link-color
+  color: $accent-color
   text-decoration: none
   transition: color 0.2s ease
   &:hover
-    color: darken($link-color, 15%)
+    color: $accent-hover
     text-decoration: underline
 
 header a, footer a, aside a
   color: inherit
+  text-decoration: none
+  &:hover
+    text-decoration: none
 
 header time
-  color: reduce(100)
+  color: $text-secondary
 
 hr
   border: none
-  border-top: 1px solid reduce(20)
+  border-top: 1px solid $border-color
   margin: 2.5em 0
 
 article:not(:last-of-type)
-  border-bottom: 1px solid reduce(14)
+  border-bottom: 1px solid $border-color
 
 blockquote
-  background: reduce(4)
-  border-left: 4px solid $link-color
+  background: rgba($accent-color, 0.04)
+  border-left: 4px solid $accent-color
   padding: 1em 1.5em
   margin: 1.5em 0
   font-style: italic
@@ -90,17 +93,17 @@ table
   overflow-y: scroll
   border-spacing: 1px
   border-radius: 4px
-  box-shadow: 0 0 0 1px reduce(12) inset
+  box-shadow: 0 0 0 1px $border-color inset
 
 th, td
   padding: .6em 1.2em
-  box-shadow: 0 0 0 1px reduce(12)
+  box-shadow: 0 0 0 1px $border-color
 
 tr:hover, tr:nth-child(odd) td
-  background: reduce(4)
+  background: rgba($dark, 0.02)
 
 pre
-  background: reduce(8)
+  background: rgba($dark, 0.04)
   border-radius: 4px
   font-size: .85em
   margin: 1.5em 0
@@ -109,7 +112,7 @@ pre
 
 \:not(pre) > code
   font-size: .9em
-  background: reduce(10)
+  background: rgba($dark, 0.06)
   border-radius: 3px
   margin: 0 .1em
   padding: .2em .5em
