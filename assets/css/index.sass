@@ -17,12 +17,28 @@ body > header
 {% else %}
 
 body > header
-  box-shadow: 0 0 .6em rgba($dark, 0.04)
-  border-bottom: 1px solid reduce(14)
+  background: $light
+  border-bottom: 1px solid reduce(12)
 
 {% endif %}
 
 body > footer
-  box-shadow: 0 0 .6em rgba($dark, 0.04) inset
-  border-top: 1px solid reduce(14)
-  opacity: .9
+  background: reduce(3)
+  border-top: 1px solid reduce(10)
+  
+body > footer nav a
+  opacity: 0.8
+  transition: opacity 0.2s ease
+  
+body > footer nav a:hover
+  opacity: 1
+
+// Selected nav link styling
+nav a.selected
+  font-weight: 600
+  color: $link-color
+
+// Profile image styling for about page
+.profile-image
+  border-radius: 6px
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1)
