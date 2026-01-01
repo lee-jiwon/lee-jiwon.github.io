@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
-  <meta charset="{{ site.encoding }}">
+  <meta charset="{{ site.encoding | default: 'utf-8' }}">
   <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="{{ page.author | default: site.author | escape }}">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
   <meta name="generator" content="Jekyll v{{ jekyll.version }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.image }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="{{ site.twitter.card | default: 'summary' }}">
+  <meta name="twitter:site" content="@{{ site.twitter.username }}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.image }}">
+  
+  <!-- Google Fonts - Source Sans Pro -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
   {% if site.show_frame %}
   <link rel="stylesheet" href="{{ "/assets/css/frame.css" | relative_url }}">
   {% else %}
@@ -51,7 +73,7 @@
 
   {% if site.external %}
   <footer>
-    <div>{{ site.description | default: site.title }}</div>
+    <div class="footer-content">{{ site.author | default: site.title }}</div>
     {% include menu.html menu=site.external %}
   </footer>
   {% endif %}
