@@ -7,19 +7,23 @@ title: "Publications"
 
 **Lee, Jiwon.** Forthcoming.  
 [**Age, Period, and Cohort Analysis with Bounding and Interactions**](https://journals.sagepub.com/doi/10.1177/00491241241266279).  
-*Sociological Methods & Research*. <span style="color: #FF8C00;">[[Pre-print]](assets/jl_smr_apc_pre_print.pdf) <span style="color: #FF8C00;">[[Supplement]](assets/jl_smr_apc_supplement.pdf) <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/apc-turnout-smr) 
+*Sociological Methods & Research*.  
+<span class="pub-links">[[Pre-print]](/assets/jl_smr_apc_pre_print.pdf) [[Supplement]](/assets/jl_smr_apc_supplement.pdf) [[Code]](https://github.com/lee-jiwon/apc-turnout-smr)</span>
 
 **Lee, Jiwon** and **Yool Choi.** 2025.  
-[**Decriminalization of Adultery Likely Changed Women’s Views on Divorce Following Spousal Infidelity in South Korea**](https://www.demographic-research.org/articles/volume/52/4).  
-*Demographic Research* 52:111–124. <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/adultery-law-south-korea-demres)</span>
+[**Decriminalization of Adultery Likely Changed Women's Views on Divorce Following Spousal Infidelity in South Korea**](https://www.demographic-research.org/articles/volume/52/4).  
+*Demographic Research* 52:111–124.  
+<span class="pub-links">[[Code]](https://github.com/lee-jiwon/adultery-law-south-korea-demres)</span>
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2024.  
 [**A Rolling Panel Model of Cohort, Period, and Aging Effects for the Analysis of the General Social Survey**](https://journals.sagepub.com/doi/abs/10.1177/00491241211043135).  
-*Sociological Methods & Research* 53:369-420. <span style="color: #FF8C00;">[[Pre-print]](https://osf.io/preprints/socarxiv/m582q) <span style="color: #FF8C00;"> <span style="color: #FF8C00;">[[Code]](https://osf.io/jzkxm/)
+*Sociological Methods & Research* 53:369-420.  
+<span class="pub-links">[[Pre-print]](https://osf.io/preprints/socarxiv/m582q) [[Code]](https://osf.io/jzkxm/)</span>
 
 **Lee, Jiwon.** 2023.  
 [**Consider Your Origins: Social Class and Preference for Redistribution in the United States from 1977 to 2018**](https://www.sciencedirect.com/science/article/pii/S0049089X22001557).  
-*Social Science Research* 110: 102840. <span style="color: #FF8C00;">[[Pre-print]](assets/jl_ssr_2023_pre_print.pdf) <span style="color: #FF8C00;">[[Supplement]](assets/jl_ssr_2024_supplement.pdf) <span style="color: #FF8C00;">[[Code]](https://github.com/lee-jiwon/gss-origin-redistribution-ssr)
+*Social Science Research* 110: 102840.  
+<span class="pub-links">[[Pre-print]](/assets/jl_ssr_2023_pre_print.pdf) [[Supplement]](/assets/jl_ssr_2024_supplement.pdf) [[Code]](https://github.com/lee-jiwon/gss-origin-redistribution-ssr)</span>
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2019.  
 [**Economic Populism and Bandwagon Bigotry: Obama-to-Trump Voters and the Cross Pressures of the 2016 Election**](https://journals.sagepub.com/doi/full/10.1177/2378023119871119).  
@@ -41,21 +45,23 @@ title: "Publications"
 
 ## Book Reviews & Methodological Reports
 
-**Lee, Jiwon.** 2024. [**Review of Rust Belt Union Blues: Why Working-Class Voters Are Turning Away from the Democratic Party**](https://journals.sagepub.com/doi/10.1177/00943061241285299z). <br> 
+**Lee, Jiwon.** 2024.  
+[**Review of Rust Belt Union Blues: Why Working-Class Voters Are Turning Away from the Democratic Party**](https://journals.sagepub.com/doi/10.1177/00943061241285299z).  
 *Contemporary Sociology* 53(6):543–545. (Invited Book Review)
 
 **Morgan, Stephen L.** and **Jiwon Lee.** 2020.  
 [**Six Alternative Weights that Adjust for Attrition in the 2006-2014 General Social Survey Panels**](https://gss.norc.org/Documents/reports/methodological-reports/MR132%20Panel-Weights.pdf).  
-*GSS Methodological Report No. 128*, National Opinion Research Center, Chicago, Illinois. <span style="color: #FF8C00;">[[Code]](https://github.com/stephen-l-morgan/gss-treble-panel-weights)
+*GSS Methodological Report No. 128*, National Opinion Research Center, Chicago, Illinois.  
+<span class="pub-links">[[Code]](https://github.com/stephen-l-morgan/gss-treble-panel-weights)</span>
 
 ---
 
-## Under Review & Selected Work in Progress
+## Working Papers
 
 **Lee, Jiwon** and **Yool Choi.**  
-STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea. <br> 
-*Research in Social Stratification and Mobility (R & R)*.
+STEMming from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea.  
+*Research in Social Stratification and Mobility* (Revise & Resubmit)
 
 **Lee, Jiwon.**  
-Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implications. <br> 
-*Population Research and Policy Review (R & R)*.
+Immigrant Incorporation in US Elections, 1994-2020: Trends, Patterns, and Implications.  
+*Population Research and Policy Review* (Revise & Resubmit)

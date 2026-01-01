@@ -1,18 +1,25 @@
 title: "Jiwon Lee"
 author: "Jiwon Lee"
-description: ""
+description: "Jiwon Lee is a Postdoctoral Fellow at Cornell University researching social stratification, demography, public opinion, immigration, and sociology of education."
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
-google_analytics: "<G-W9NRQWCHYK>"
+google_analytics: "G-W9NRQWCHYK"
+
+# SEO and Open Graph
+url: "https://jiwonlee.net"
+image: "/assets/jl_image.jpg"
+twitter:
+  username: JiwonLee586
+  card: summary
 
 # Layout
 
 show_social: true         # show footer
 show_excerpts: true       # show article excerpts on the home page
-show_frame: false           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
+show_frame: false         # adds a gray frame to the site
+show_sidebar: false       # show a sidebar instead of the usual header
 
 # Menu
 
@@ -23,9 +30,11 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {url: "/cv_jiwon_lee.pdf", title: CV}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:jiwonlee@jhu.jhu.edu"}
+  - {title: Mail, icon: envelope, url: "mailto:jiwon.lee@cornell.edu"}
+  - {title: Google Scholar, icon: graduation-cap, url: "https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en"}
+  - {title: ORCID, icon: orcid, url: "https://orcid.org/0000-0002-4151-5056"}
   - {title: Github, icon: github, url: "https://github.com/lee-jiwon"}
-  #- {title: Twitter, icon: twitter, url: "https://twitter.com/JiwonLee586"}}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/JiwonLee586"}
 
 # remote_theme: niklasbuschmann/contrast@v2.11
 theme: minima
@@ -34,3 +43,4 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
