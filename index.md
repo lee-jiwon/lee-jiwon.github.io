@@ -1,21 +1,65 @@
 ---
 layout: page
-title: "About Me"
+title: "Jiwon Lee"
+permalink: "/"
+description: "Jiwon Lee is the Frank H. T. Rhodes Postdoctoral Fellow at the Cornell Population Center, researching social stratification, demography, public opinion, immigration, and sociology of education."
 ---
 
-<img class="profile-image" style="margin-left: 1.5rem; margin-bottom: 1rem;" src="assets/jl_image.jpg" align="right" height="240" width="300" alt="Jiwon Lee">
+<div class="bio prose">
+  <p>I am the Frank H. T. Rhodes Postdoctoral Fellow at the <a href="https://cpc.cornell.edu/">Cornell Population Center</a>, Cornell University, working with <a href="https://publicpolicy.cornell.edu/people/matthew-hall/">Matthew Hall</a>. I completed my Ph.D. in Sociology at Johns Hopkins University in 2023, advised by <a href="http://socweb.soc.jhu.edu/faculty/morgan/">Stephen L. Morgan</a>.</p>
 
-Welcome! I am the Frank H. T. Rhodes Postdoctoral Fellow at the [Cornell Population Center](https://cpc.cornell.edu/), Cornell University, where I am mentored by [Matthew Hall](https://publicpolicy.cornell.edu/people/matthew-hall/). I earned my Ph.D. in Sociology from Johns Hopkins University in May 2023, under the guidance of [Stephen L. Morgan](http://socweb.soc.jhu.edu/faculty/morgan/). 
+  <p>My research spans social stratification, demography, public opinion, race and ethnicity, and the sociology of education. I am currently co-PI, with Matthew Hall, on a <a href="https://www.russellsage.org/awarded-project/context-and-life-course-racialethnic-identities-among-multi-racial-americans">Russell Sage Foundation funded project</a> that uses restricted-use Census Bureau data to study how social context and the life course shape racial and ethnic identification among multiracial Americans.</p>
+</div>
 
-My research focuses on **social stratification**, **demography**, **public opinion**, **immigration**, **race/ethnicity**, and **sociology of education**.
+{%- comment -%}
+  Work in progress leads, as it does on the research page: the
+  featured rows come out in this order, so concatenating articles
+  first would strand the newest papers at the foot of the list.
+{%- endcomment -%}
+{%- assign all = site.data.publications.working_papers | concat: site.data.publications.articles | concat: site.data.publications.other | concat: site.data.publications.korean_articles -%}
+{%- assign featured = all | where: "featured", true -%}
+{%- assign total = all | size -%}
 
-For 2025–2026, I will serve as a co-PI, alongside Matt Hall (PI), on a Russell Sage Foundation-funded project using restricted-use Census Bureau datasets to study the [racial and ethnic identification of multiracial Americans](https://www.russellsage.org/awarded-project/context-and-life-course-racialethnic-identities-among-multi-racial-americans).
+<section class="section">
+  <div class="section__head">
+    <h2 class="section__title">Selected Publications &amp; Working Papers</h2>
+    <a class="section__more" href="{{ '/research/' | relative_url }}">All {{ total }} &rarr;</a>
+  </div>
+  <ol class="idx" role="list">
+    {%- for item in featured %}
+    {%- include publication.html item=item show_abstract=false %}
+    {%- endfor %}
+  </ol>
+</section>
 
-My work has appeared in *Demographic Research*, *Social Science Research*, *Sociological Methods & Research*, *Sociological Science*, and *Socius*. Feel free to explore my [CV](/cv_jiwon_lee.pdf), [publications](/research/), [Google Scholar](https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en) profile, and [teaching background](/teaching/) to learn more about my research and teaching interests.
+<section class="section">
+  <div class="section__head">
+    <h2 class="section__title">Personal Updates</h2>
+  </div>
+  <ul class="idx idx--updates" role="list">
+    {%- if site.data.news and site.data.news.size > 0 -%}
+    {%- assign items = site.data.news | slice: 0, site.news_limit %}
+    {%- for item in items %}
+    <li>
+      <span class="idx__year">{{ item.date }}</span>
+      <p class="idx__note">{{ item.text }}</p>
+    </li>
+    {%- endfor %}
+    {%- else %}
+    <li class="idx--empty">
+      <span class="idx__year">Month Year</span>
+      <p class="idx__note">First update goes here &mdash; add it in <code>_data/news.yml</code>.</p>
+    </li>
+    {%- endif %}
+  </ul>
+</section>
 
----
-
-### Contact
-
-**Email:** [jiwon.lee@cornell.edu](mailto:jiwon.lee@cornell.edu)  
-**Address:** 3230 Martha Van Rensselaer Hall, Cornell University, Ithaca, NY 14853  
+<section class="section">
+  <div class="section__head">
+    <h2 class="section__title">Contact</h2>
+  </div>
+  <div class="contact">
+    <p><a class="link" href="mailto:jiwon.lee@cornell.edu">jiwon.lee@cornell.edu</a></p>
+    <p>3230 Martha Van Rensselaer Hall, Ithaca, NY 14853</p>
+  </div>
+</section>

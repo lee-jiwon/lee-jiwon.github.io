@@ -1,16 +1,29 @@
 ---
-title: "Teaching Experience"
-permalink: "/teaching/"
 layout: page
+title: "Teaching"
+permalink: "/teaching/"
+description: "Teaching experience of Jiwon Lee, Department of Sociology, Johns Hopkins University."
 ---
 
-### Graduate Teaching Assistant, Johns Hopkins University:
-
-- **Sociology of Health and Illness** (Fall 2022; Instructor: Prof. Emily Agree)  
-   Student Evaluation Scores: 4.58/5, 4.67/5
-
-- **Introduction to Sociology** (Spring 2021; Instructor: Prof. Andrew Cherlin)  
-   Student Evaluation Scores: 4.47/5, 4.83/5
-
-- **Research Methods for the Social Sciences** (Spring 2020; Instructor: Prof. Lingxin Hao)  
-   Student Evaluation Score: 4.56/5
+{%- for group in site.data.teaching %}
+<section class="section">
+  <div class="section__head">
+    <h2 class="section__title">{{ group.role }}</h2>
+    <span class="section__meta">{{ group.institution }}</span>
+  </div>
+  <ol class="idx" role="list">
+    {%- for c in group.courses %}
+    <li>
+      <span class="idx__year">{{ c.term }}</span>
+      <div>
+        <h3 class="idx__title">{{ c.title }}</h3>
+        <p class="idx__meta">Instructor: {{ c.instructor }}</p>
+        {%- if c.evaluations %}
+        <p class="idx__meta">Student evaluations: {{ c.evaluations | join: ", " }}</p>
+        {%- endif %}
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+{%- endfor %}

@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────────────
+#  Updates shown on the homepage.
+#
+#  Newest first — entries render in file order, so add each new
+#  one at the top. The homepage shows the first `news_limit`
+#  entries (set in _config.yml); the section is hidden entirely
+#  while this list is empty.
+#
+#  date : month and year, printed exactly as written.
+#         "March 2026", "Mar 2026", "Spring 2026" all work.
+#  text : plain text plus inline HTML. Use <em> for journal and
+#         book titles, and put <a href="..."> around only the
+#         words that should link — not the whole sentence.
+#
+#  Conference papers take quotation marks; <em> is for the venue,
+#  matching how the publication list sets titles. The commented
+#  block at the foot is a template — copy it, do not edit it.
+#
+- date: "August 2026"
+  text: >-
+    Presented "After Legibility: Wartime Removal and the Postwar
+    Census Classification of Japanese Ancestry" (with Thelonious
+    Goerz) at the RC28 Summer Meeting and the ASA Annual Meeting,
+    both in New York, NY.
+
+# - date: "April 2026"
+#   text: >-
+#     Presented "Paper Title Goes Here" at the <a
+#     href="https://www.populationassociation.org/">PAA Annual
+#     Meeting</a> in Washington, DC.
+#
+# - date: "January 2026"
+#   text: >-
+#     <a href="https://example.com/article">Article title</a>
+#     is now available at <em>Journal Name</em>.

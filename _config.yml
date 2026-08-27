@@ -1,11 +1,29 @@
 title: "Jiwon Lee"
 author: "Jiwon Lee"
-description: "Jiwon Lee is a Postdoctoral Fellow at Cornell University researching social stratification, demography, public opinion, immigration, and sociology of education."
-permalink: /:title/
+description: "Jiwon Lee is the Frank H. T. Rhodes Postdoctoral Fellow at the Cornell Population Center, researching social stratification, demography, public opinion, immigration, and sociology of education."
 lang: "en"
-excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 google_analytics: "G-W9NRQWCHYK"
+
+# Maximum "Personal Updates" shown on the homepage. Entries beyond this
+# count stay in _data/news.yml but are not rendered, so the page keeps a
+# fixed length however long the list grows.
+news_limit: 5
+
+# Shown on the CV page when set, e.g. "March 2026". Leave blank to hide.
+cv_updated: "August 2026"
+
+# Used for schema.org structured data in the page head.
+job_title: "Frank H. T. Rhodes Postdoctoral Fellow"
+affiliation: "Cornell University"
+affiliation_short: "Cornell Population Center"
+location: "Ithaca, NY"
+alumni_of: "Johns Hopkins University"
+
+# Names rendered in bold in author lists on the research page.
+author_self:
+  - "Lee, Jiwon"
+  - "Jiwon Lee"
 
 # SEO and Open Graph
 url: "https://jiwonlee.net"
@@ -14,33 +32,25 @@ twitter:
   username: JiwonLee586
   card: summary
 
-# Layout
-
-show_social: true         # show footer
-show_excerpts: true       # show article excerpts on the home page
-show_frame: false         # adds a gray frame to the site
-show_sidebar: false       # show a sidebar instead of the usual header
-
-# Menu
-
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md", title: Home}
+# Menu — accepts {file, title, url, icon}
+navigation:
+  - {file: "index.md",    title: About}
   - {file: "research.md", title: Research}
   - {file: "teaching.md", title: Teaching}
-  - {url: "/cv_jiwon_lee.pdf", title: CV}
+  - {file: "cv.md",       title: CV}
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:jiwon.lee@cornell.edu"}
-  - {title: Google Scholar, icon: graduation-cap, url: "https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en"}
-  - {title: ORCID, icon: orcid, url: "https://orcid.org/0000-0002-4151-5056"}
-  - {title: Github, icon: github, url: "https://github.com/lee-jiwon"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/JiwonLee586"}
+# Profile links in the rail, rendered as plain text.
+external:
+  - {title: Google Scholar, url: "https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en"}
+  - {title: GitHub,         url: "https://github.com/lee-jiwon"}
 
-# remote_theme: niklasbuschmann/contrast@v2.11
-theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - UNLICENSE.txt
+  - .claude
 
 plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag

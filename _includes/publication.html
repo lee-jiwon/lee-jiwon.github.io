@@ -1,0 +1,77 @@
+{%- comment -%}
+  One publication row: year in the rail, serif title, and a single
+  compressed metadata line carrying authors, venue, and volume.
+
+    item          the entry from _data/publications.yml
+    show_abstract when true, appends an Abstract disclosure
+
+  An entry's `note` gets its own quiet line rather than a clause on
+  the metadata line: shared authorship and invited-special-issue
+  wording is long, and the metadata line has to stay scannable.
+
+  The homepage passes show_abstract=false to stay scannable; the
+  research page passes true so the full list carries the depth.
+{%- endcomment -%}
+{%- assign p = include.item -%}
+<li>
+  <span class="idx__year">{{ p.year_short | default: p.year | default: "—" }}</span>
+  <div>
+    <h3 class="idx__title">
+      {%- if p.url -%}<a href="{{ p.url }}">{{ p.title }}</a>{%- else -%}{{ p.title }}{%- endif -%}
+    </h3>
+
+    {%- comment -%}
+      For work published in another language, the original title sits
+      under the English one rather than inside it: these titles run
+      long, and a heading carrying both stops being scannable.
+    {%- endcomment -%}
+    {%- if p.title_original %}
+    <p class="idx__title-orig" lang="{{ p.title_lang | default: 'ko' }}">{{ p.title_original }}</p>
+    {%- endif %}
+
+    <p class="idx__meta">
+      {%- for a in p.authors -%}
+        {%- if forloop.index > 1 -%}
+          {%- if forloop.last %}{% if p.authors.size > 2 %},{% endif %} and {% else %}, {% endif -%}
+        {%- endif -%}
+        {%- if site.author_self contains a -%}<span class="self">{{ a }}</span>{%- else -%}{{ a }}{%- endif -%}
+      {%- endfor -%}
+      {%- if p.authors_note %} ({{ p.authors_note }}){% endif -%}
+      {%- if p.journal %} <span class="idx__sep">·</span> <em>{{ p.journal }}</em>{% if p.journal_original %} <span class="idx__journal-orig" lang="{{ p.title_lang | default: 'ko' }}">({{ p.journal_original }})</span>{% endif %}{% endif -%}
+      {%- if p.volume %} {{ p.volume }}{% endif -%}
+      {%- if p.status %} <span class="idx__sep">·</span> <span class="idx__status">{{ p.status }}</span>{% endif -%}
+    </p>
+
+    {%- if p.note %}
+    <p class="idx__addendum">{{ p.note }}</p>
+    {%- endif %}
+
+    {%- if p.links %}
+    <ul class="idx__links" role="list">
+      {%- for l in p.links %}
+      <li><a href="{{ l.url | relative_url }}">{{ l.label }}</a></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+
+    {%- comment -%}
+      A `todo:` entry shows its reminder only outside production. The
+      note names a file in this repo, which is useful while writing and
+      wrong on a live page, so the disclosure is simply absent there.
+    {%- endcomment -%}
+    {%- assign pending = false -%}
+    {%- if p.todo and jekyll.environment != 'production' %}{% assign pending = true %}{% endif -%}
+    {%- if include.show_abstract and p.abstract or include.show_abstract and pending %}
+    <details class="abstract">
+      <summary>Abstract</summary>
+      <div class="abstract__body">
+        {%- if p.abstract %}
+        {{ p.abstract | markdownify }}
+        {%- else %}
+        <p class="abstract__todo">Not yet added &mdash; paste it into the <code>abstract:</code> field for this entry in <code>_data/publications.yml</code> and remove the <code>todo:</code> line.</p>
+        {%- endif %}
+      </div>
+    </details>
+    {%- endif %}
+  </div>
+</li>

@@ -1,0 +1,113 @@
+// ─────────────────────────────────────────────────────────────
+//  Design tokens — the only place literal colours, sizes, and
+//  spacing values are allowed to appear. Everything else refers
+//  to these by name.
+//
+//  BRAND COLOUR SYNC POINT
+//  --------------------------------------------------------
+//  Two places hardcode the brand colour because they cannot
+//  read CSS custom properties. If --ink-strong or --bg changes
+//  here, update them by hand:
+//
+//    assets/favicon.svg          #111315 ground, #ffffff mark
+//    _layouts/default.html       <meta name="theme-color">
+//  --------------------------------------------------------
+// ─────────────────────────────────────────────────────────────
+
+:root
+{
+  // ── Type families ─────────────────────────────────────────
+  // Sans carries the page; serif is reserved for titles. Neither
+  // subsetted face carries Hangul, so both stacks end in a Korean
+  // system font: without one the browser falls back per glyph and
+  // the Korean titles come out in whatever it happens to find.
+  --font-sans:  'Source Sans 3', system-ui, -apple-system, 'Segoe UI',
+                'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman',
+                'Malgun Gothic', 'Apple SD Gothic Neo', serif;
+
+  // ── Type scale ────────────────────────────────────────────
+  // Mobile values. Larger steps are raised at the wide breakpoint
+  // in _base.scss rather than with viewport units, so text stays
+  // predictable and zoomable.
+  --fs-micro: 0.6875rem;  // 11px — uppercase labels
+  --fs-xs:    0.75rem;    // 12px — link chips
+  --fs-mark:  0.9rem;     // wordmark in the rail
+  --fs-sm:    0.8125rem;  // 13px — metadata
+  --fs-base:  1rem;       // 16px — body
+  --fs-md:    1.0625rem;  // 17px — publication titles
+  --fs-lg:    1.375rem;   // 22px — page titles
+  --fs-xl:    1.625rem;   // 26px — name
+
+  --lh-tight: 1.15;
+  --lh-snug:  1.35;
+  --lh-body:  1.63;
+
+  --track-label: 0.15em;
+  --track-name:  -0.015em;
+
+  // ── Measure and frame ─────────────────────────────────────
+  --wrap:    56rem;   // outer page column
+  --measure: 38rem;   // running prose
+  --rail-w:  11.5rem; // identity column on wide screens
+
+  // Rail rhythm. Spacing is what groups the rail into four blocks —
+  // photo+wordmark, nav, affiliation, links — so these are named for
+  // the relationship they express, not their size. A single gap
+  // separates every block from the next; keep it clearly wider than
+  // the gap between rows inside a block or the grouping stops reading.
+  --rail-tight: 0.6rem;   // photo -> wordmark
+  --rail-group: 1.55rem;  // between any two blocks
+  --gutter:  1.35rem;
+
+  // ── Spacing scale ─────────────────────────────────────────
+  --s1: 0.3rem;
+  --s2: 0.6rem;
+  --s3: 1rem;
+  --s4: 1.75rem;
+  --s5: 2.75rem;
+  --s6: 4rem;
+
+  --rail: 4.25rem;   // year column on wide screens
+
+  // ── Colour: light ─────────────────────────────────────────
+  --bg:       #ffffff;
+  --bg-sunk:  #f5f6f7;
+
+  --ink:      #111315;
+  --ink-2:    #45494e;
+  --ink-3:    #6b7178;
+
+  --rule:     #e6e7e9;
+  --rule-2:   #c9ccd0;
+
+  // The single accent. Links only — never decoration.
+  --accent:   #0a46c8;
+
+  --focus:    #0a46c8;
+}
+
+// ── Colour: dark ────────────────────────────────────────────
+// Only colours are redefined; structure is shared.
+@mixin dark-tokens
+{
+  --bg:      #0c0d0f;
+  --bg-sunk: #15171a;
+
+  --ink:     #eceef0;
+  --ink-2:   #b3b9bf;
+  --ink-3:   #8b9199;
+
+  --rule:    #212428;
+  --rule-2:  #343940;
+
+  --accent:  #7ba5ff;
+  --focus:   #7ba5ff;
+}
+
+@media (prefers-color-scheme: dark)
+{
+  :root:not([data-theme="light"]) { @include dark-tokens; }
+}
+
+:root[data-theme="dark"] { @include dark-tokens; }

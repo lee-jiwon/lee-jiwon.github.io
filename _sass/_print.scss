@@ -1,0 +1,39 @@
+// ─────────────────────────────────────────────────────────────
+//  Print — a clean handout from any page.
+//  Colours come from the token layer, overridden once here.
+// ─────────────────────────────────────────────────────────────
+
+@media print
+{
+  :root
+  {
+    --bg:      #fff;
+    --bg-sunk: #fff;
+    --ink:     #000;
+    --ink-2:   #222;
+    --ink-3:   #444;
+    --rule:    #ccc;
+    --rule-2:  #999;
+    --accent:  #000;
+  }
+
+  .skip-link,
+  .navlist,
+  .sitefoot,
+  .cv__actions,
+  .cv__viewer,
+  .section__more { display: none; }
+
+  .masthead { padding-top: 0; }
+
+  // Show where the links went.
+  .idx__links a::after
+  {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    color: var(--ink-3);
+  }
+
+  .idx > li { break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; }
+}

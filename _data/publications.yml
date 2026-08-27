@@ -1,0 +1,475 @@
+# ─────────────────────────────────────────────────────────────
+#  Publications. This file is the record and the CV PDF is the other
+#  copy of it; when one changes, change the other in the same pass.
+#
+#  Adding a paper: copy an entry, fill it in, done. Order within
+#  each list is the order shown on the page.
+#
+#  authors : list of display names. Any name matching an entry in
+#            `author_self` in _config.yml renders bold.
+#  status  : short stage or kind, shown on the metadata line
+#            (Conditionally accepted, Invited book review, ...).
+#  journal : omit it for anything under review. Naming the venue of
+#            a manuscript that has not been accepted is an author's
+#            call to make, and this one is: do not print it.
+#  journal_original: the venue in its own language, set upright in
+#            parentheses after the English name.
+#  title_original: the title in the language the paper was written
+#            in, set under the English one. `title_lang` names that
+#            language for screen readers and font fallback; it
+#            defaults to Korean.
+#  authors_note: a parenthetical set right after the byline, for
+#            what is true of the authorship itself ("Equal
+#            authorship"). Two or three words.
+#  note    : a second, quieter line for what the metadata line
+#            cannot absorb — an invited special issue, availability
+#            on request. Keep it to one sentence.
+#  abstract: the text shown under "Abstract". Rendered as Markdown,
+#            so blank lines make paragraphs and **text** goes bold —
+#            that is how a structured abstract keeps its sections.
+#            Leave the `todo:` key instead if you have not written
+#            it yet. Prefer the publisher's wording over a preprint's.
+#  links   : label/url pairs shown as chips.
+#  featured: true puts the entry in Selected Publications on the
+#            homepage. Aim for 3-5 across the whole file.
+#  year_short: what shows in the narrow year rail when `year` is
+#            too long to fit, or instead of a year for work that
+#            does not have one yet ("Under review", "In progress").
+# ─────────────────────────────────────────────────────────────
+
+articles:
+  - title: "STEMing from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea"
+    authors: ["Lee, Jiwon", "Yool Choi"]
+    journal: "Journal of Asian Sociology"
+    year: 2026
+    abstract: >-
+      Recent research identifies gender disparities in adolescent
+      occupational plans as a key contributor to women's underrepresentation
+      in STEM (science, technology, engineering, and math) fields. Using
+      nationally representative data from two South Korean birth cohorts,
+      this study examines how gender gaps in STEM aspirations emerge in
+      childhood and persist into late adolescence. By 3rd grade, boys are
+      already six to eight times more likely than girls to express interest
+      in STEM careers — a gap not explained by differences in our measures
+      of parenting, math ability and interest, or life goals. Our estimates
+      suggest that roughly 22 percent of the gender gap in STEM intentions
+      by 11th grade stems from boys' stronger 5th grade STEM aspirations and
+      their greater persistence over time. These findings underscore
+      childhood as a critical period in the formation of gendered career
+      pathways.
+
+  - title: "Age, Period, and Cohort Analysis with Bounding and Interactions"
+    url: "https://journals.sagepub.com/doi/10.1177/00491241241266279"
+    authors: ["Lee, Jiwon"]
+    journal: "Sociological Methods & Research"
+    year: 2026
+    volume: "55(1):157–185"
+    featured: true
+    abstract: >-
+      This article uses the example of voter turnout in US presidential
+      elections to compare two new methods for age, period, and cohort (APC)
+      analysis: the APC interaction model and the APC bounding analysis.
+      While discussing the formal, conceptual, and interpretive differences
+      between the two methods, the analysis demonstrates how both methods
+      can be used to generate distinct but complementary findings. Because
+      the two methods take alternative positions on the appropriate
+      cohort-effect estimands, the comparison underscores the importance of
+      well-grounded conceptual foundations in APC analysis.
+    links:
+      - { label: "Pre-print",  url: "/assets/jl_smr_apc_pre_print.pdf" }
+      - { label: "Supplement", url: "/assets/jl_smr_apc_supplement.pdf" }
+      - { label: "Code",       url: "https://github.com/lee-jiwon/apc-turnout-smr" }
+
+  - title: "Decriminalization of Adultery Likely Changed Women's Views on Divorce Following Spousal Infidelity in South Korea"
+    url: "https://www.demographic-research.org/articles/volume/52/4"
+    authors: ["Lee, Jiwon", "Yool Choi"]
+    journal: "Demographic Research"
+    year: 2025
+    volume: "52:111–124"
+    featured: true
+    abstract: |-
+      **Background:** Laws imposing criminal penalties for extramarital
+      affairs stir intense debates in several countries, highlighted by
+      recent repeals in countries like India, South Korea, and Taiwan.
+      However, we currently lack empirical studies of their societal
+      impacts.
+
+      **Objective:** This study examines the impact of decriminalizing
+      extramarital affairs on women's attitudes toward divorce in cases of
+      potential spousal infidelity in South Korea.
+
+      **Methods:** We analyze the first five waves of the Korean
+      Longitudinal Survey of Women and Families, which provides a nationally
+      representative sample of adult women in South Korea. The fifth wave
+      coincides with the public announcement of the adultery law's repeal.
+      For causal identification, we leverage the potentially exogenous
+      timing of the Constitutional Court's decision in a
+      difference-in-differences analysis.
+
+      **Results:** Our findings reveal a notable shift in attitudes after
+      the repeal: the decriminalization of extramarital affairs has led
+      women to be less likely to consider a husband's infidelity as
+      justifying divorce on its own.
+
+      **Conclusions:** Decriminalizing adultery laws can affect societal
+      views, shifting how women perceive spousal infidelity as a basis for
+      divorce.
+
+      **Contribution:** While discussions about adultery laws frequently
+      rely on empirical arguments, significant research gaps remain on their
+      societal effects. This study provides what is, to our knowledge, the
+      first empirical and potentially causal analysis of the consequences of
+      decriminalizing adultery, an issue that sparks considerable debate in
+      many countries. It establishes an empirical basis for further
+      exploration, encouraging continued research and more informed public
+      discussions. Future research directions are also briefly discussed.
+    links:
+      - { label: "Code", url: "https://github.com/lee-jiwon/adultery-law-south-korea-demres" }
+
+  - title: "A Rolling Panel Model of Cohort, Period, and Aging Effects for the Analysis of the General Social Survey"
+    url: "https://journals.sagepub.com/doi/abs/10.1177/00491241211043135"
+    authors: ["Morgan, Stephen L.", "Jiwon Lee"]
+    journal: "Sociological Methods & Research"
+    year: 2024
+    volume: "53:369–420"
+    abstract: >-
+      The linear dependence of age, period, and birth cohort is a challenge
+      for the analysis of social change. With either repeated
+      cross-sectional data or conventional panel data, raw change cannot be
+      decomposed into over-time differences that are attributable to the
+      effects of common experiences of alternative birth cohorts, features
+      of the periods under observation, and the cumulation of lifecourse
+      aging. This article proposes a rolling panel model for cohort, period,
+      and aging effects, suggested by and tuned to the treble panel data
+      collected for the General Social Survey from 2006 through 2014. While
+      the model does not offer a general solution for the identification of
+      the classical age-period-cohort accounting model, it yields warranted
+      interpretations under plausible assumptions that are reasonable for
+      many outcomes of interest. In particular, if aging effects can be
+      assumed to be invariant over the course of an observation interval,
+      and if separate panel samples of the full age distribution overlap
+      within the same observation interval, then period and aging effects
+      can be parameterized and interpreted separately, adjusted for cohort
+      differences that pulse through the same observation interval. The
+      estimated cohort effects during the observation interval are then
+      interpretable as effects during the observation interval of entangled
+      period and cumulated aging differences from before the observation
+      interval.
+    links:
+      - { label: "Pre-print", url: "https://osf.io/preprints/socarxiv/m582q" }
+      - { label: "Code",      url: "https://osf.io/jzkxm/" }
+
+  - title: "Consider Your Origins: Social Class and Preference for Redistribution in the United States from 1977 to 2018"
+    url: "https://www.sciencedirect.com/science/article/pii/S0049089X22001557"
+    authors: ["Lee, Jiwon"]
+    journal: "Social Science Research"
+    year: 2023
+    volume: "110:102840"
+    featured: true
+    abstract: >-
+      Capitalizing on the newly available and consistent coding of detailed
+      occupations for the General Social Surveys (GSS), this article
+      examines the link between class origins and public support for
+      redistribution in the United States from 1977 through 2018. The
+      findings reveal significant net associations between class origins and
+      preferences for redistribution. Individuals with farming-class or
+      working-class origins are more supportive of government action to
+      reduce inequality than individuals with salariat-class origins. These
+      class-origin differences are associated with individuals' current
+      socioeconomic characteristics but are not fully accounted for by these
+      factors. In addition, individuals in more privileged class positions
+      have increased their support for redistribution over time. Attitudes
+      toward federal income taxes are also analyzed as an additional measure
+      of redistribution preferences. Overall, the findings suggest a
+      continuing role of class origin in determining support for
+      redistribution.
+    links:
+      - { label: "Pre-print",  url: "/assets/jl_ssr_2023_pre_print.pdf" }
+      - { label: "Supplement", url: "/assets/jl_ssr_2024_supplement.pdf" }
+      - { label: "Code",       url: "https://github.com/lee-jiwon/gss-origin-redistribution-ssr" }
+
+  - title: "Economic Populism and Bandwagon Bigotry: Obama-to-Trump Voters and the Cross Pressures of the 2016 Election"
+    url: "https://journals.sagepub.com/doi/full/10.1177/2378023119871119"
+    authors: ["Morgan, Stephen L.", "Jiwon Lee"]
+    journal: "Socius: Sociological Research for a Dynamic World"
+    year: 2019
+    volume: "5:1–15"
+    abstract: >-
+      Through an analysis of validated voters in the 2016 American National
+      Election Study, this article considers the voters who supported Obama
+      in 2012 and Trump in 2016. More than 5.7 million in total,
+      Obama-to-Trump voters were crucial to Trump's victory in the Electoral
+      College. They were more likely to be white, working class, and
+      resident in the Midwest. They had lower levels of political interest,
+      were centrist in both party affiliation and ideology, and were late
+      deciders for the 2016 election. On economic interests, they were
+      centrists, except for trade policy, which they viewed, on average, as
+      a greater threat than other voters. They claimed to have more
+      experience with economic vulnerability than Democratic loyalists of
+      comparable social standing. On racial attitudes, including the
+      racialized economic topic of immigration, they had a profile similar
+      to Republican loyalists. While their support of Trump may be
+      attributable to surging white nativism, this article argues for an
+      alternative explanation. Voters who were attracted by Trump's economic
+      populism only joined his coalition if they could accept his racialized
+      rhetoric. As a result, the Trump bandwagon predominantly attracted
+      generically bigoted voters with racial attitudes similar to Republican
+      loyalists.
+
+  - title: "Trump Voters and the White Working Class"
+    url: "https://sociologicalscience.com/articles-v5-10-234/"
+    authors: ["Morgan, Stephen L.", "Jiwon Lee"]
+    journal: "Sociological Science"
+    year: 2018
+    volume: "5:234–245"
+    abstract: >-
+      To evaluate the claim that white working-class voters were a crucial
+      block of support for Trump in the 2016 presidential election, this
+      article offers two sets of results. First, self-reports of
+      presidential votes in 2012 and 2016 from the American National
+      Election Studies show that Obama-to-Trump voters and 2012 eligible
+      nonvoters composed a substantial share of Trump's 2016 voters and were
+      disproportionately likely to be members of the white working class.
+      Second, when county vote tallies in 2012 and 2016 are merged with the
+      public-use microdata samples of the 2012-to-2016 American Community
+      Surveys, areal variations across 1,142 geographic units that sensibly
+      partition the United States show that Trump's gains in 2016 above
+      Romney's performance in 2012 are strongly related to the proportion of
+      the voting population in each area that was white and working class.
+      Taken together, these results support the claim that Trump's appeal to
+      the white working class was crucial for his victory.
+
+  - title: "The White Working Class and Voter Turnout in U.S. Presidential Elections, 2004 to 2016"
+    url: "https://sociologicalscience.com/articles-v4-27-656/"
+    authors: ["Morgan, Stephen L.", "Jiwon Lee"]
+    journal: "Sociological Science"
+    year: 2017
+    volume: "4:656–685"
+    abstract: >-
+      Through an analysis of the 2004, 2008, 2012, and 2016 Current
+      Population Surveys as well as the 2004 through 2016 General Social
+      Surveys, this article investigates class differences and patterns of
+      voter turnout for the last four U.S. presidential elections. After
+      developing some support for the claim that a surge of white,
+      working-class voters emerged in competitive states in 2016, a portrait
+      of class differences on political matters among white, non-Hispanic,
+      eligible voters between 2004 and 2016 is offered to assess the
+      electoral consequences of this surge. These latter results are
+      consistent with the claim that racial prejudice, anti-immigrant
+      sentiment, concerns about economic security, and frustration with
+      government responsiveness may have led many white, working-class
+      voters to support an outsider candidate who campaigned on these
+      themes. However, these same results give no support to the related
+      claim that the white working class changed its positions on these
+      matters in response to the 2016 primary election campaign or in the
+      months just before the general election.
+
+  - title: "Social Class and Party Identification During the Clinton, Bush, and Obama Presidencies"
+    url: "https://sociologicalscience.com/articles-v4-16-394/"
+    authors: ["Morgan, Stephen L.", "Jiwon Lee"]
+    journal: "Sociological Science"
+    year: 2017
+    volume: "4:394–423"
+    abstract: >-
+      Through an analysis of the 1994 through 2016 General Social Surveys,
+      this article demonstrates that a substantial proportion of eligible
+      voters within the working class turned away from solid identification
+      with either the Democratic Party or the Republican Party during the
+      Obama presidency. Even before the 2016 election cycle commenced,
+      conditions were uncharacteristically propitious for a Republican
+      candidate who could appeal to prospective voters in the working class,
+      especially those who had not voted in recent presidential elections
+      but could be mobilized to vote. These findings support the contested
+      position that variation in party identification is a genuine leading
+      indicator of electoral outcomes and perhaps also, in this case, of
+      party realignment.
+
+working_papers:
+  - title: "From Monoracial to Multiracial: Two Decades of Change in the Classification of Children of Interracial Couples"
+    authors: ["Lee, Jiwon", "Matthew Hall"]
+    journal: "Population Research and Policy Review"
+    year: 2026
+    status: "Conditionally accepted"
+    featured: true
+    abstract: >-
+      Using the 2000 Census, 2001–2023 American Community Survey (ACS), and
+      Current Population Survey (CPS) from 2003 to 2024, this study traces
+      how the racial classification of children in interracial families has
+      evolved over the past two decades. The share of children whose
+      reported race aligns with the combined identities of their parents —
+      what we call *congruent classification* — rose by nearly 50% (22
+      percentage points) over this period. Parallel estimates from the CPS
+      align with the Census/ACS series, suggesting that the shift is not an
+      artifact of changes in questionnaire wording or data processing. As
+      congruent reporting has increased, both hypodescent for part-Black
+      children (the "one-drop" rule) and hyperdescent for part-White
+      children have declined. Shifts in the sociodemographic profile of
+      interracial families account for only a small portion of the rise in
+      congruent reporting, suggesting that broader cultural and political
+      currents are more potent drivers. These results demonstrate how the
+      seemingly technical act of assigning race to children responds to the
+      larger social climate, altering the statistical portrait of race in
+      the United States and, potentially, offering an early glimpse of
+      future mixed-race identifications.
+
+  - title: "Immigrant Incorporation in U.S. Elections, 1994–2022: Trends, Patterns, and Implications"
+    authors: ["Lee, Jiwon"]
+    journal: "Population Research and Policy Review"
+    year: 2026
+    status: "Conditionally accepted"
+    featured: true
+    abstract: >-
+      Drawing on the 1994–2022 Current Population Survey Voting and
+      Registration Supplements, this study documents four primary patterns
+      of immigrant electoral incorporation in the United States. First,
+      despite the steady decline of the non-Hispanic White share within the
+      voting-age and voting-eligible populations, White voters maintain
+      disproportionate electoral influence through consistently high
+      turnout, particularly in midterm elections. Conversely, minority
+      groups—and Hispanic communities in particular—face a "double penalty"
+      of structural exclusion via non-citizenship and lower participation
+      rates among the eligible that systematically constrains proportional
+      representation. Second, although turnout among first-generation
+      immigrants rises with duration of residence, broadly aligning with
+      classical assimilation theory, the pace of this incorporation is
+      racially stratified. Third, arrival-cohort effects follow a distinct
+      U-shaped trajectory: pre-1965 arrivals exhibit high engagement,
+      cohorts arriving between the 1970s and mid-1980s display a
+      participation deficit, and cohorts arriving in the 2000s demonstrate a
+      tentative rebound. Compositional adjustments attenuate but do not
+      eliminate these cohort differentials. Fourth, despite the post-2016
+      turnout surge, substantial ethnoracial disparities persist into the
+      third-and-higher generation. Collectively, these findings challenge
+      linear narratives of automatic electoral assimilation, underscoring
+      how citizenship barriers and racial stratification continue to shape
+      the composition of the active American electorate.
+
+  - title: "Between 'Deficit' and 'Choice': Shifting Dynamics of Non-Marital Childbearing in South Korea, 1997–2024"
+    authors: ["Kim, Hwayeon", "Jiwon Lee", "Yool Choi"]
+    year_short: "Under review"
+    abstract: >-
+      Non-marital childbearing has long been exceptionally rare in South
+      Korea, even amid delayed marriage, rapid fertility decline, and
+      growing acceptance of non-traditional family forms. Recently, however,
+      the share of births outside marriage has risen from less than 1
+      percent in the late 1990s to 5.8 percent in 2024. This increase raises
+      the question of whether it signals a substantive weakening of the
+      marriage-childbearing link or mainly reflects the arithmetic effect of
+      declining marital births. Using vital birth records from 1997 to 2024,
+      this study examines the scale and composition of non-marital
+      childbearing in South Korea. We first distinguish changes in the share
+      of births occurring outside marriage from changes in the underlying
+      prevalence, comparing three complementary indicators that capture
+      different demographic processes. We then examine compositional changes
+      through two analyses: an age-by-education distribution analysis and a
+      latent class analysis incorporating occupation and relational context.
+      While earlier increases were partly driven by declining marital
+      fertility, the post-2020 period marks a more substantive rise with
+      notable increases among older and more highly educated women. The
+      latent class analysis identifies a growing profile defined by
+      socioeconomic resources, alongside profiles defined by relational
+      resources that complicate the deficit-choice binary. These patterns
+      suggest a shift in the profiles of those who bear children outside
+      marriage, with possible implications for the social meaning of
+      non-marital childbearing in South Korea.
+
+  - title: "The Local Production of Multiracial Identification"
+    authors: ["Lee, Jiwon", "Matthew Hall", "Mary Campbell", "Wendy Roth"]
+    year_short: "In progress"
+    note: >-
+      Manuscript available upon request.
+    abstract: >-
+      The rise of multiracial Americans is one of the most defining features
+      of the emerging U.S. racial order. Its significance, however, is not
+      simply demographic: because they are situated across established
+      ethnoracial boundaries, they reveal how those boundaries are formed,
+      recognized, and stabilized. This study examines whether childhood peer
+      ecologies shape the racial classifications later recorded for
+      multiracial children into adulthood. Using linked full-count Census
+      microdata from 2000, 2010, and 2020, we estimate the effects of local
+      peer composition among children of Black–White, Asian–White,
+      AIAN–White, and Hispanic/non-Hispanic parentage. Our design exploits
+      grade-to-grade fluctuations in local racial compositions within school
+      districts to separate peer exposure from family sorting across
+      communities. Across all four boundaries, exposure to minoritized peers
+      increases later classification with the minoritized side, while
+      exposure to peers recorded with the corresponding multiracial
+      classification increases multiracial classification. These shifts come
+      largely from each boundary's historical default and many of these
+      effects remain evident in records observed in adulthood. The findings
+      recast racial categories as a locally embedded process of racial
+      formation: peer ecologies shape not only how children encounter racial
+      boundaries, but the categories through which American diversity and
+      inequality are measured.
+
+  - title: "When Are Asymmetric Fixed-Effect Models Within-Person Tests of Reversibility? Heterogeneous Responses and Bidirectional Support"
+    authors: ["Lee, Jiwon"]
+    year_short: "In progress"
+    note: >-
+      Manuscript available upon request.
+    abstract: >-
+      Asymmetric fixed-effects models are increasingly used in sociological
+      research to test whether an effect reverses when a time-varying
+      predictor changes direction. Because these models rely on
+      within-person change, directional asymmetry is often interpreted as
+      evidence of within-person irreversibility. This study shows that this
+      interpretation requires an additional cross-person homogeneity
+      assumption. I first reparameterize Allison's (2019) cumulative
+      asymmetric FE model exactly as a model of current state and total
+      movement. This representation clarifies the path-dependent content of
+      asymmetry and reveals that the conventional specification pools
+      current-state responses across individuals. When these responses are
+      heterogeneous, and upward and downward movements are
+      disproportionately contributed by individuals with different response
+      slopes, pooled asymmetry can arise even when every individual's
+      response is perfectly reversible. I derive this mover-composition
+      result and characterize what remains identifiable when individual
+      state responses are unrestricted. Under heterogeneous state responses,
+      identification of a common path effect requires within-person
+      bidirectional movement that generates variation not absorbed by period
+      effects. Monte Carlo simulations and a reanalysis of Allison's wage
+      example illustrate the resulting assumption–support–precision
+      trade-off and show that identification of individual-level
+      reversibility depends on the structure of observed trajectories, not
+      simply on the number of directional transitions.
+
+  - title: "After Legibility: Wartime Removal and the Postwar Census Classification of Japanese Ancestry"
+    authors: ["Thelonious Goerz", "Jiwon Lee"]
+    year_short: "In progress"
+    authors_note: "Equal authorship"
+
+other:
+  - title: "Review of Rust Belt Union Blues: Why Working-Class Voters Are Turning Away from the Democratic Party"
+    url: "https://journals.sagepub.com/doi/10.1177/00943061241285299z"
+    authors: ["Lee, Jiwon"]
+    journal: "Contemporary Sociology"
+    year: 2024
+    volume: "53(6):543–545"
+    status: "Invited book review"
+
+  - title: "Six Alternative Weights that Adjust for Attrition in the 2006–2014 General Social Survey Panels"
+    url: "https://gss.norc.org/Documents/reports/methodological-reports/MR132%20Panel-Weights.pdf"
+    authors: ["Morgan, Stephen L.", "Jiwon Lee"]
+    journal: "GSS Methodological Report No. 128"
+    year: 2020
+    note: >-
+      National Opinion Research Center, Chicago, IL.
+    links:
+      - { label: "Code", url: "https://github.com/stephen-l-morgan/gss-treble-panel-weights" }
+
+korean_articles:
+  - title: "Neighborhood Ethnic Composition and Job Search Path as Determinants of Earning and High Skill Job Employment among Employed Marriage Immigrant Wives in South Korea"
+    title_original: "취업상태 혼인이주여성의 소득 및 고숙련직종 종사여부의 결정요인: 거주지역의 민족구성 특성과 구직경로를 중심으로"
+    authors: ["Lee, Jiwon"]
+    journal: "Health and Social Welfare Review"
+    journal_original: "보건사회연구"
+    year: 2015
+    volume: "35(3):386–420"
+
+  - title: "Effect of Residential Ethnic Composition on Life Satisfaction of Marriage Immigrant Wives in Korea"
+    title_original: "거주지역의 민족구성 특성이 혼인이주여성의 삶 만족도에 미치는 영향"
+    authors: ["Kim, Doo-Sub", "Jiwon Lee"]
+    journal: "Family and Culture"
+    journal_original: "가족과 문화"
+    year: 2015
+    volume: "27(2):130–156"

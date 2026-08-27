@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────────
+#  Teaching. Grouped by role; courses render newest first in
+#  file order, matching the publications pattern.
+#
+#  term        shown in the year rail
+#  title       course name
+#  instructor  rendered as "Instructor: <value>"
+#  evaluations list of scores, joined with commas
+# ─────────────────────────────────────────────────────────────
+
+- role: "Graduate Teaching Assistant"
+  institution: "Johns Hopkins University"
+  courses:
+    - term: "Fall 2022"
+      title: "Sociology of Health and Illness"
+      instructor: "Prof. Emily Agree"
+      evaluations: ["4.58 / 5", "4.67 / 5"]
+
+    - term: "Spring 2021"
+      title: "Introduction to Sociology"
+      instructor: "Prof. Andrew Cherlin"
+      evaluations: ["4.47 / 5", "4.83 / 5"]
+
+    - term: "Spring 2020"
+      title: "Research Methods for the Social Sciences"
+      instructor: "Prof. Lingxin Hao"
+      evaluations: ["4.56 / 5"]
