@@ -344,6 +344,36 @@ working_papers:
       how citizenship barriers and racial stratification continue to shape
       the composition of the active American electorate.
 
+  - title: "When Are Asymmetric Fixed-Effects Models Within-Person Tests of Reversibility? Heterogeneous Responses and Bidirectional Support"
+    authors: ["Lee, Jiwon"]
+    year_short: "Under review"
+    abstract: >-
+      Asymmetric fixed-effects models are increasingly used in sociological
+      research to test whether an effect reverses when a time-varying
+      predictor changes direction. Because these models rely on
+      within-person change, directional asymmetry is often interpreted as
+      evidence of within-person irreversibility. This study shows that this
+      interpretation requires an additional cross-person homogeneity
+      assumption. I reparameterize Allison's (2019) cumulative asymmetric
+      fixed-effects model exactly as a model of current state and total
+      movement, revealing that the specification pools current-state
+      responses across individuals. When those responses are heterogeneous
+      and systematically related to who moves upward versus downward, pooled
+      asymmetry can arise even when every individual's response is perfectly
+      reversible. I derive this mover-composition result and characterize
+      what remains identifiable when individual state responses are
+      unrestricted. A common path response—the additional response
+      associated with accumulated movement conditional on current state—can
+      then be identified only from within-person bidirectional movement,
+      provided that the resulting variation is not absorbed by period
+      effects. Monte Carlo simulations and a reanalysis of Allison's wage
+      example illustrate the resulting assumption–support–precision
+      trade-off and show that relevant support depends on the structure of
+      observed trajectories, not simply on the number of directional
+      transitions.
+    links:
+      - { label: "Pre-print", url: "/assets/lee_asymmetric_fe_reversibility.pdf" }
+
   - title: "Between 'Deficit' and 'Choice': Shifting Dynamics of Non-Marital Childbearing in South Korea, 1997–2024"
     authors: ["Kim, Hwayeon", "Jiwon Lee", "Yool Choi"]
     year_short: "Under review"
@@ -401,37 +431,6 @@ working_papers:
       formation: peer ecologies shape not only how children encounter racial
       boundaries, but the categories through which American diversity and
       inequality are measured.
-
-  - title: "When Are Asymmetric Fixed-Effect Models Within-Person Tests of Reversibility? Heterogeneous Responses and Bidirectional Support"
-    authors: ["Lee, Jiwon"]
-    year_short: "In progress"
-    note: >-
-      Manuscript available upon request.
-    abstract: >-
-      Asymmetric fixed-effects models are increasingly used in sociological
-      research to test whether an effect reverses when a time-varying
-      predictor changes direction. Because these models rely on
-      within-person change, directional asymmetry is often interpreted as
-      evidence of within-person irreversibility. This study shows that this
-      interpretation requires an additional cross-person homogeneity
-      assumption. I first reparameterize Allison's (2019) cumulative
-      asymmetric FE model exactly as a model of current state and total
-      movement. This representation clarifies the path-dependent content of
-      asymmetry and reveals that the conventional specification pools
-      current-state responses across individuals. When these responses are
-      heterogeneous, and upward and downward movements are
-      disproportionately contributed by individuals with different response
-      slopes, pooled asymmetry can arise even when every individual's
-      response is perfectly reversible. I derive this mover-composition
-      result and characterize what remains identifiable when individual
-      state responses are unrestricted. Under heterogeneous state responses,
-      identification of a common path effect requires within-person
-      bidirectional movement that generates variation not absorbed by period
-      effects. Monte Carlo simulations and a reanalysis of Allison's wage
-      example illustrate the resulting assumption–support–precision
-      trade-off and show that identification of individual-level
-      reversibility depends on the structure of observed trajectories, not
-      simply on the number of directional transitions.
 
   - title: "After Legibility: Wartime Removal and the Postwar Census Classification of Japanese Ancestry"
     authors: ["Thelonious Goerz", "Jiwon Lee"]
