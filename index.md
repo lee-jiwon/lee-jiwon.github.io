@@ -8,7 +8,7 @@ description: "Jiwon Lee is the Frank H. T. Rhodes Postdoctoral Fellow at the Cor
 <div class="bio prose">
   <p>I am the Frank H. T. Rhodes Postdoctoral Fellow at the <a href="https://cpc.cornell.edu/">Cornell Population Center</a>, Cornell University, working with <a href="https://publicpolicy.cornell.edu/people/matthew-hall/">Matthew Hall</a>. I completed my Ph.D. in Sociology at Johns Hopkins University in 2023, advised by <a href="http://socweb.soc.jhu.edu/faculty/morgan/">Stephen L. Morgan</a>.</p>
 
-  <p>My research spans social stratification, demography, public opinion, race and ethnicity, and the sociology of education. I am currently co-PI, with Matthew Hall, on a <a href="https://www.russellsage.org/awarded-project/context-and-life-course-racialethnic-identities-among-multi-racial-americans">Russell Sage Foundation funded project</a> that uses restricted-use Census Bureau data to study how social context and the life course shape racial and ethnic identification among multiracial Americans.</p>
+  <p>My research spans social stratification, demography, public opinion, race and ethnicity, and the sociology of education. I am currently co-PI, with Matthew Hall (PI), on a <a href="https://www.russellsage.org/awarded-project/context-and-life-course-racialethnic-identities-among-multi-racial-americans">Russell Sage Foundation funded project</a> that uses restricted-use Census Bureau data to study how social context and the life course shape racial and ethnic identification among multiracial Americans.</p>
 </div>
 
 {%- comment -%}

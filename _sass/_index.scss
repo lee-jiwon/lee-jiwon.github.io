@@ -169,6 +169,19 @@
   font-size: var(--fs-sm);
   color: var(--ink-2);
   margin: 0;
+
+  // The one place the accent is allowed on a resting link. In the bio
+  // a link is an aside inside a sentence, so it stays ink; here the
+  // link is the whole point of the entry, and an update nobody
+  // notices is clickable has failed at its only job.
+  a
+  {
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent);
+    transition: border-color 0.12s ease;
+
+    &:hover { border-bottom-width: 2px; }
+  }
 }
 
 .idx__links
