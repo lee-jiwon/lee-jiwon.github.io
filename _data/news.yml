@@ -8,7 +8,12 @@
 #
 #  date : month and year, printed exactly as written.
 #         "March 2026", "Mar 2026", "Spring 2026" all work.
-#  text : plain text plus inline HTML. Use <em> for journal and
+#  text : plain text plus inline HTML. This field is not run
+#         through Markdown, so type real curly quotes here;
+#         nothing converts straight ones for you. A title that
+#         ends in ? or ! takes no comma after the closing
+#         quote — the mark already does the comma's work.
+#         Otherwise: Use <em> for journal and
 #         book titles, and put <a href="..."> around only the
 #         words that should link — not the whole sentence.
 #
@@ -18,14 +23,14 @@
 #
 - date: "August 2026"
   text: >-
-    A new working paper, "When Are Asymmetric Fixed-Effects Models
-    Within-Person Tests of Reversibility?", is now available as a <a
+    A new working paper, “When Are Asymmetric Fixed-Effects Models
+    Within-Person Tests of Reversibility?” is now available as a <a
     href="https://osf.io/preprints/socarxiv/h67ae">SocArXiv pre-print</a>!
 
 - date: "August 2026"
   text: >-
-    Presented "After Legibility: Wartime Removal and the Postwar
-    Census Classification of Japanese Ancestry" (with Thelonious
+    Presented “After Legibility: Wartime Removal and the Postwar
+    Census Classification of Japanese Ancestry” (with Thelonious
     Goerz) at the RC28 Summer Meeting and the ASA Annual Meeting,
     both in New York, NY.
 
