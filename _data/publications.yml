@@ -345,6 +345,7 @@ working_papers:
       the composition of the active American electorate.
 
   - title: "When Are Asymmetric Fixed-Effects Models Within-Person Tests of Reversibility? Heterogeneous Responses and Bidirectional Support"
+    url: "https://osf.io/preprints/socarxiv/h67ae"
     authors: ["Lee, Jiwon"]
     year_short: "Under review"
     abstract: >-
@@ -372,7 +373,7 @@ working_papers:
       observed trajectories, not simply on the number of directional
       transitions.
     links:
-      - { label: "Pre-print", url: "/assets/lee_asymmetric_fe_reversibility.pdf" }
+      - { label: "Pre-print", url: "https://osf.io/preprints/socarxiv/h67ae" }
 
   - title: "Between 'Deficit' and 'Choice': Shifting Dynamics of Non-Marital Childbearing in South Korea, 1997–2024"
     authors: ["Kim, Hwayeon", "Jiwon Lee", "Yool Choi"]
