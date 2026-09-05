@@ -22,7 +22,7 @@ description: "Jiwon Lee is the Frank H. T. Rhodes Postdoctoral Fellow at the Cor
 <section class="section">
   <div class="section__head">
     <h2 class="section__title">Selected Publications &amp; Working Papers</h2>
-    <a class="section__more" href="{{ '/research/' | relative_url }}">All research &rarr;</a>
+    <a class="section__more" href="{{ '/research/' | relative_url }}">All</a>
   </div>
   <ol class="idx" role="list">
     {%- for item in featured %}
