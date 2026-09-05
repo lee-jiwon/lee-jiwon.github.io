@@ -18,12 +18,11 @@ description: "Jiwon Lee is the Frank H. T. Rhodes Postdoctoral Fellow at the Cor
 {%- endcomment -%}
 {%- assign all = site.data.publications.working_papers | concat: site.data.publications.articles | concat: site.data.publications.other | concat: site.data.publications.korean_articles -%}
 {%- assign featured = all | where: "featured", true -%}
-{%- assign total = all | size -%}
 
 <section class="section">
   <div class="section__head">
     <h2 class="section__title">Selected Publications &amp; Working Papers</h2>
-    <a class="section__more" href="{{ '/research/' | relative_url }}">All {{ total }} &rarr;</a>
+    <a class="section__more" href="{{ '/research/' | relative_url }}">All</a>
   </div>
   <ol class="idx" role="list">
     {%- for item in featured %}
@@ -34,7 +33,7 @@ description: "Jiwon Lee is the Frank H. T. Rhodes Postdoctoral Fellow at the Cor
 
 <section class="section">
   <div class="section__head">
-    <h2 class="section__title">Personal Updates</h2>
+    <h2 class="section__title">News</h2>
   </div>
   <ul class="idx idx--updates" role="list">
     {%- if site.data.news and site.data.news.size > 0 -%}

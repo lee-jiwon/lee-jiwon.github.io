@@ -30,7 +30,7 @@
   // Mobile values. Larger steps are raised at the wide breakpoint
   // in _base.scss rather than with viewport units, so text stays
   // predictable and zoomable.
-  --fs-micro: 0.6875rem;  // 11px — uppercase labels
+  --fs-micro: 0.75rem;    // 12px — uppercase labels
   --fs-xs:    0.75rem;    // 12px — link chips
   --fs-mark:  0.9rem;     // wordmark in the rail
   --fs-sm:    0.8125rem;  // 13px — metadata
@@ -83,6 +83,7 @@
 
   // The single accent. Links only — never decoration.
   --accent:   #0a46c8;
+  --accent-soft: #49658b;
 
   --focus:    #0a46c8;
 }
@@ -102,6 +103,7 @@
   --rule-2:  #343940;
 
   --accent:  #7ba5ff;
+  --accent-soft: #9bafca;
   --focus:   #7ba5ff;
 }
 

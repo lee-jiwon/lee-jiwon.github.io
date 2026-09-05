@@ -5,7 +5,7 @@ lang: "en"
 date_format: "%B %d, %Y"
 google_analytics: "G-W9NRQWCHYK"
 
-# Maximum "Personal Updates" shown on the homepage. Entries beyond this
+# Maximum "News" entries shown on the homepage. Entries beyond this
 # count stay in _data/news.yml but are not rendered, so the page keeps a
 # fixed length however long the list grows.
 news_limit: 5
@@ -41,6 +41,7 @@ navigation:
 
 # Profile links in the rail, rendered as plain text.
 external:
+  - {title: Email,          url: "mailto:jiwon.lee@cornell.edu"}
   - {title: Google Scholar, url: "https://scholar.google.com/citations?user=nszIX_sAAAAJ&hl=en"}
   - {title: GitHub,         url: "https://github.com/lee-jiwon"}
 
