@@ -116,7 +116,20 @@
   letter-spacing: -0.005em;
   margin: 0 0 0.2rem;
 
-  a:hover { color: var(--accent); }
+  a
+  {
+    text-decoration: underline;
+    text-decoration-color: var(--rule-2);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+
+    &:hover,
+    &:focus-visible
+    {
+      color: var(--accent);
+      text-decoration-color: currentColor;
+    }
+  }
 }
 
 // Authors, venue, and volume compress onto one line. This is
@@ -199,9 +212,10 @@
 .idx__links a
 {
   display: inline-block;
-  font-size: var(--fs-xs);
-  color: var(--ink-3);
-  border-bottom: 1px solid var(--rule-2);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--accent);
+  border-bottom: 1px solid currentColor;
   padding: 0.3rem 0;
   transition: color 0.12s ease, border-color 0.12s ease;
 
@@ -302,7 +316,7 @@
   padding: 0 var(--s3);
   transition: color 0.12s ease, border-color 0.12s ease;
 
-  &:hover { color: var(--accent); border-color: var(--accent); }
+  &:hover { color: var(--ink); border-color: currentColor; }
 }
 
 .cv__updated
