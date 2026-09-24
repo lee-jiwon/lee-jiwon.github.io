@@ -39,9 +39,11 @@
 
 articles:
   - title: "STEMing from Childhood? The Role of Childhood in Gender Disparities in Adolescent STEM Aspirations in South Korea"
+    url: "https://www.isdpr.org/JAS/get_Journals/journal-of-asian-sociology?mode=view&seqidx=114"
     authors: ["Lee, Jiwon", "Yool Choi"]
     journal: "Journal of Asian Sociology"
     year: 2026
+    volume: "55(2):91–136"
     abstract: >-
       Recent research identifies gender disparities in adolescent
       occupational plans as a key contributor to women's underrepresentation
@@ -344,6 +346,35 @@ working_papers:
       how citizenship barriers and racial stratification continue to shape
       the composition of the active American electorate.
 
+  - title: "Between 'Deficit' and 'Choice': Shifting Dynamics of Non-Marital Childbearing in South Korea, 1997–2024"
+    authors: ["Kim, Hwayeon", "Jiwon Lee", "Yool Choi"]
+    year_short: "R&R"
+    abstract: >-
+      Non-marital childbearing has long been exceptionally rare in South
+      Korea, even amid delayed marriage, rapid fertility decline, and
+      growing acceptance of non-traditional family forms. Recently, however,
+      the share of births outside marriage has risen from less than 1
+      percent in the late 1990s to 5.8 percent in 2024. This increase raises
+      the question of whether it signals a substantive weakening of the
+      marriage-childbearing link or mainly reflects the arithmetic effect of
+      declining marital births. Using vital birth records from 1997 to 2024,
+      this study examines the scale and composition of non-marital
+      childbearing in South Korea. We first distinguish changes in the share
+      of births occurring outside marriage from changes in the underlying
+      prevalence, comparing three complementary indicators that capture
+      different demographic processes. We then examine compositional changes
+      through two analyses: an age-by-education distribution analysis and a
+      latent class analysis incorporating occupation and relational context.
+      While earlier increases were partly driven by declining marital
+      fertility, the post-2020 period marks a more substantive rise with
+      notable increases among older and more highly educated women. The
+      latent class analysis identifies a growing profile defined by
+      socioeconomic resources, alongside profiles defined by relational
+      resources that complicate the deficit-choice binary. These patterns
+      suggest a shift in the profiles of those who bear children outside
+      marriage, with possible implications for the social meaning of
+      non-marital childbearing in South Korea.
+
   - title: "When Are Asymmetric Fixed-Effects Models Within-Person Tests of Reversibility? Heterogeneous Responses and Bidirectional Support"
     url: "https://osf.io/preprints/socarxiv/h67ae"
     authors: ["Lee, Jiwon"]
@@ -374,35 +405,6 @@ working_papers:
       transitions.
     links:
       - { label: "Pre-print", url: "https://osf.io/preprints/socarxiv/h67ae" }
-
-  - title: "Between 'Deficit' and 'Choice': Shifting Dynamics of Non-Marital Childbearing in South Korea, 1997–2024"
-    authors: ["Kim, Hwayeon", "Jiwon Lee", "Yool Choi"]
-    year_short: "Under review"
-    abstract: >-
-      Non-marital childbearing has long been exceptionally rare in South
-      Korea, even amid delayed marriage, rapid fertility decline, and
-      growing acceptance of non-traditional family forms. Recently, however,
-      the share of births outside marriage has risen from less than 1
-      percent in the late 1990s to 5.8 percent in 2024. This increase raises
-      the question of whether it signals a substantive weakening of the
-      marriage-childbearing link or mainly reflects the arithmetic effect of
-      declining marital births. Using vital birth records from 1997 to 2024,
-      this study examines the scale and composition of non-marital
-      childbearing in South Korea. We first distinguish changes in the share
-      of births occurring outside marriage from changes in the underlying
-      prevalence, comparing three complementary indicators that capture
-      different demographic processes. We then examine compositional changes
-      through two analyses: an age-by-education distribution analysis and a
-      latent class analysis incorporating occupation and relational context.
-      While earlier increases were partly driven by declining marital
-      fertility, the post-2020 period marks a more substantive rise with
-      notable increases among older and more highly educated women. The
-      latent class analysis identifies a growing profile defined by
-      socioeconomic resources, alongside profiles defined by relational
-      resources that complicate the deficit-choice binary. These patterns
-      suggest a shift in the profiles of those who bear children outside
-      marriage, with possible implications for the social meaning of
-      non-marital childbearing in South Korea.
 
   - title: "The Local Production of Multiracial Identification"
     authors: ["Lee, Jiwon", "Matthew Hall", "Mary Campbell", "Wendy D. Roth"]
