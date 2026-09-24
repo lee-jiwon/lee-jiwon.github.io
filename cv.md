@@ -6,9 +6,10 @@ description: "Curriculum vitae of Jiwon Lee, Frank H. T. Rhodes Postdoctoral Fel
 ---
 
 {%- comment -%}
-  The CV lives at /Jiwon_Lee_CV.pdf. /cv_jiwon_lee.pdf is the same file
-  under its old name, kept only so links made before the rename still
-  resolve. Replace BOTH files together whenever the CV changes.
+  The CV is /Jiwon_Lee_CV.pdf, and that is the only copy in the repo.
+  The deploy workflow (.github/workflows/pages.yml) also publishes it
+  as /cv_jiwon_lee.pdf, its name before a rename, so older links keep
+  working. To update the CV, replace Jiwon_Lee_CV.pdf and nothing else.
 {%- endcomment %}
 
 <p class="cv__actions">
