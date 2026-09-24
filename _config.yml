@@ -51,6 +51,7 @@ exclude:
   - README.md
   - UNLICENSE.txt
   - .claude
+  - vendor
 
 plugins:
   - jekyll-sitemap

@@ -1,0 +1,70 @@
+# ─────────────────────────────────────────────────────────────
+#  Build and deploy the site to GitHub Pages.
+#
+#  This replaces the classic Pages build for two reasons:
+#
+#  1. The CV has two public URLs. /Jiwon_Lee_CV.pdf is the file;
+#     /cv_jiwon_lee.pdf is its name before a rename, kept alive for
+#     links made earlier. Classic Pages cannot alias a file, so the
+#     alias is made here, after the build, from the one copy in
+#     the repo. Never commit a second copy.
+#
+#  2. Classic Pages builds with Jekyll 3.9; this builds with the
+#     Gemfile.lock versions, so production matches `jekyll serve`.
+#
+#  Requires Settings → Pages → Source: GitHub Actions.
+# ─────────────────────────────────────────────────────────────
+
+name: Deploy site
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; a newer push waits rather than cancelling a
+# deploy that is already half out.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"   # matches local; Jekyll 4.2 predates 3.4's gem removals
+          bundler-cache: true
+
+      - id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Build
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      # cp fails if the CV is missing, which stops the deploy — better
+      # than publishing a site whose CV links are dead.
+      - name: Serve the CV under its pre-rename URL
+        run: cp _site/Jiwon_Lee_CV.pdf _site/cv_jiwon_lee.pdf
+
+      - uses: actions/upload-pages-artifact@v5
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
