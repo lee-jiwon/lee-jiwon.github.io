@@ -408,35 +408,33 @@ working_papers:
     links:
       - { label: "Pre-print", url: "https://osf.io/preprints/socarxiv/h67ae" }
 
-  - title: "The Local Production of Multiracial Identification"
-    authors: ["Lee, Jiwon", "Matthew Hall", "Mary Campbell", "Wendy D. Roth"]
-    year_short: "In progress"
-    note: >-
-      Manuscript available upon request.
+  - title: "The Local Production of Multiracial Identification through Peer Ecology"
+    authors: ["Lee, Jiwon", "Matthew Hall", "Mary E. Campbell", "Wendy D. Roth"]
+    year_short: "Under review"
     abstract: >-
-      The increase in multiracial Americans is a most defining feature of
-      the emerging U.S. racial order. Its significance, however, is not
-      simply demographic. Because multiracial individuals are situated
-      across established ethnoracial boundaries, their classification
-      provides a critical window into how racial boundaries are reproduced
-      and transformed. This study asks whether the racial composition of
-      childhood peer environments shapes how multiracial children are later
-      classified as they enter adulthood. Using linked full-count Census
-      microdata from 2000, 2010, and 2020, we examine children of
-      Black–White, Asian–White, AIAN–White, and Hispanic/non-Hispanic
-      parentage. Our design exploits grade-to-grade fluctuations in racial
-      composition within school districts to distinguish peer exposure from
-      family sorting across communities. Across all four boundaries, greater
-      exposure to minoritized peers increases later classification with the
-      minoritized ancestry, while greater exposure to peers recorded with
-      the same multiracial classification increases multiracial
-      classification. These changes occur largely away from the historically
-      dominant classification at each boundary, and many remain evident in
-      adulthood. The findings recast racial classification as a locally
-      embedded process of racial formation, showing that childhood peer
-      ecologies shape how children encounter racial boundaries and,
-      ultimately, the categories through which American diversity and
-      inequality are measured.
+      The expanding population with ancestry from more than one ethnoracial
+      group is a defining feature of the emerging U.S. ethnoracial order.
+      This study examines how childhood peer ecologies shape the long-term
+      ethnoracial classifications of mixed-ancestry youth. Using linked
+      full-count Census microdata from 2000, 2010, and 2020, we estimate the
+      effects of local peer composition among children of Black–White,
+      Asian–White, American Indian/Alaska Native (AIAN)–White, and
+      Hispanic–non-Hispanic parentage. Our design exploits idiosyncratic
+      grade-to-grade fluctuations in racial composition within school
+      districts to separate peer exposure from family residential sorting.
+      Across all four groups, greater childhood exposure to peers from a
+      minoritized group with which they share ancestry predicts a higher
+      probability of classification with that group in adulthood. Exposure
+      to multiracial peers with the same mixed background predicts
+      multiracial classification across all three biracial samples in 2010.
+      In 2020, this association persists for Black–White and AIAN–White
+      adults, with lower rates of White-only classification in both groups
+      and lower rates of Black-only classification among Black–White adults.
+      White peer exposure rarely predicts White-only classification. Our
+      findings locate racial formation partly in the everyday ecology of
+      childhood, illustrating how local peer environments shape the very
+      categories through which American diversity and inequality are
+      measured.
 
   - title: "After Legibility: Wartime Removal and the Postwar Census Classification of Japanese Ancestry"
     authors: ["Thelonious Goerz", "Jiwon Lee"]

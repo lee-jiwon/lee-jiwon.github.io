@@ -11,7 +11,7 @@ google_analytics: "G-W9NRQWCHYK"
 news_limit: 5
 
 # Shown on the CV page when set, e.g. "March 2026". Leave blank to hide.
-cv_updated: "August 2026"
+cv_updated: "November 2026"
 
 # Used for schema.org structured data in the page head.
 job_title: "Frank H. T. Rhodes Postdoctoral Fellow"
